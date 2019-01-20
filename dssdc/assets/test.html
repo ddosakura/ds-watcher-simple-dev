@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Websocket DB</title>
+    <style>
+        body {
+            --state-color: red;
+            --state-text: 'off'
+        }
+        .see-state {
+            color: var(--state-color);
+        }
+        .see-state::after {
+            content: var(--state-text);
+        }
+    </style>
+    <script>
+        let ws = null
+        let isLinked = false
+        function link() {
+            if (isLinked) {
+                ws.close()
+            }
+            const url = `ws://${wsurl.value}/ws`
+            ws = new WebSocket(url);
+            ws.onopen = function () {
+                console.log('opened')
+                isLinked = true
+                document.body.style.setProperty('--state-color', 'green');
+                document.body.style.setProperty('--state-text', '"on"');
+            }
+            ws.onclose = function (e) {
+                console.log('closed')
+                isLinked = true
+                document.body.style.setProperty('--state-color', 'red');
+                document.body.style.setProperty('--state-text', '"off"');
+            }
+            ws.onmessage = function (e) {
+                const v = document.createElement('div')
+                v.innerHTML = e.data
+                list.appendChild(v)
+            }
+        }
+        function send() {
+            ws.send(msg.value);
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <span class='see-state'></span>
+        <input id='wsurl' value='127.0.0.1:8080' />
+        <button onclick="link()">Link</button>
+        <button onclick="ws.close()">Close</button>
+    </div>
+    <div>
+        <input id='msg' />
+        <button onclick="send()">Send</button>
+    </div>
+    <div id='list'></div>
+</body>
+
+</html>

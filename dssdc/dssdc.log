@@ -1,0 +1,651 @@
+[DDoSakura]: 2019/01/20 19:11:30 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:11:52 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:12:13 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:12:18 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:12:18 loading directory...
+[DDoSakura]: 2019/01/20 19:12:18 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 19:12:18 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 19:12:18 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 19:12:18 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 19:12:18 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 19:12:18 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 19:12:18 ready!
+[DDoSakura]: 2019/01/20 19:12:41 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/20 19:12:41 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/20 19:12:41 EXEC [echo fresh]
+[DDoSakura]: 2019/01/20 19:12:41 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/20 19:12:41 EXEC [uname -a]
+[DDoSakura]: 2019/01/20 19:12:41 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/20 19:12:41 end 
+[DDoSakura]: 2019/01/20 19:13:39 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:13:39 loading directory...
+[DDoSakura]: 2019/01/20 19:13:39 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 19:13:39 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 19:13:39 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 19:13:39 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 19:13:39 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 19:13:39 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 19:13:39 ready!
+[DDoSakura]: 2019/01/20 19:13:44 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/20 19:13:44 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/20 19:13:44 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/20 19:13:44 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/20 19:13:44 EXEC [uname -a]
+[DDoSakura]: 2019/01/20 19:13:44 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/20 19:13:44 end 
+[DDoSakura]: 2019/01/20 19:29:13 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:29:13 ...
+[DDoSakura]: 2019/01/20 19:29:13 loading directory...
+[DDoSakura]: 2019/01/20 19:29:13 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 19:29:13 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 19:29:13 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 19:29:13 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 19:29:13 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 19:29:13 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 19:29:13 ready!
+[DDoSakura]: 2019/01/20 19:29:24 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:29:24 loading directory...
+[DDoSakura]: 2019/01/20 19:29:24 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 19:29:24 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 19:29:24 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 19:29:24 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 19:29:24 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 19:29:24 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 19:29:24 ready!
+[DDoSakura]: 2019/01/20 19:29:32 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:29:32 ...
+[DDoSakura]: 2019/01/20 19:29:32 loading directory...
+[DDoSakura]: 2019/01/20 19:29:32 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 19:29:32 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 19:29:32 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 19:29:32 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 19:29:32 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 19:29:32 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 19:29:32 ready!
+[DDoSakura]: 2019/01/20 19:38:03 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:38:03 loading directory...
+[DDoSakura]: 2019/01/20 19:38:03 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 19:38:03 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 19:38:03 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 19:38:03 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 19:38:03 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 19:38:03 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 19:38:03 ready!
+[DDoSakura]: 2019/01/20 19:46:00 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:46:00 loading directory...
+[DDoSakura]: 2019/01/20 19:46:00 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 19:46:00 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 19:46:00 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 19:46:00 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 19:46:00 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 19:46:00 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 19:46:00 ready!
+[DDoSakura]: 2019/01/20 19:46:00 ListenAndServe:listen tcp: lookup tcp/ஸ: Servname not supported for ai_socktype
+[DDoSakura]: 2019/01/20 19:46:28 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:46:28 loading directory...
+[DDoSakura]: 2019/01/20 19:46:28 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 19:46:28 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 19:46:28 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 19:46:28 :ஸ
+[DDoSakura]: 2019/01/20 19:46:28 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 19:46:28 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 19:46:28 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 19:46:28 ready!
+[DDoSakura]: 2019/01/20 19:46:28 ListenAndServe:listen tcp: lookup tcp/ஸ: Servname not supported for ai_socktype
+[DDoSakura]: 2019/01/20 19:48:50 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 19:48:50 loading directory...
+[DDoSakura]: 2019/01/20 19:48:50 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 19:48:50 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 19:48:50 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 19:48:50 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 19:48:50 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 19:48:50 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 19:48:50 :3000
+[DDoSakura]: 2019/01/20 19:48:50 ready!
+[DDoSakura]: 2019/01/20 20:08:52 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 20:08:52 loading directory...
+[DDoSakura]: 2019/01/20 20:08:52 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 20:08:52 :3000
+[DDoSakura]: 2019/01/20 20:08:52 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 20:08:52 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 20:08:52 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 20:08:52 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 20:08:52 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 20:08:52 ready!
+[DDoSakura]: 2019/01/20 20:09:30 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 20:09:30 loading directory...
+[DDoSakura]: 2019/01/20 20:09:30 :3000
+[DDoSakura]: 2019/01/20 20:09:30 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 20:09:30 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 20:09:30 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 20:09:30 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 20:09:30 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 20:09:30 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 20:09:30 ready!
+[DDoSakura]: 2019/01/20 20:09:49 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 20:09:49 loading directory...
+[DDoSakura]: 2019/01/20 20:09:49 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 20:09:49 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 20:09:49 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 20:09:49 :3000
+[DDoSakura]: 2019/01/20 20:09:49 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 20:09:49 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 20:09:49 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 20:09:49 ready!
+[DDoSakura]: 2019/01/20 20:10:43 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 20:10:43 loading directory...
+[DDoSakura]: 2019/01/20 20:10:43 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 20:10:43 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 20:10:43 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 20:10:43 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 20:10:43 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 20:10:43 :3000
+[DDoSakura]: 2019/01/20 20:10:43 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 20:10:43 ready!
+[DDoSakura]: 2019/01/20 20:11:05 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 20:11:05 loading directory...
+[DDoSakura]: 2019/01/20 20:11:05 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 20:11:05 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 20:11:05 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 20:11:05 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 20:11:05 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 20:11:05 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 20:11:05 ready!
+[DDoSakura]: 2019/01/20 20:11:05 :3000
+[DDoSakura]: 2019/01/20 20:11:43 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 20:11:43 loading directory...
+[DDoSakura]: 2019/01/20 20:11:43 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 20:11:43 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 20:11:43 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 20:11:43 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 20:11:43 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 20:11:43 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 20:11:43 ready!
+[DDoSakura]: 2019/01/20 20:11:43 :3000
+[DDoSakura]: 2019/01/20 20:20:40 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 20:20:40 loading directory...
+[DDoSakura]: 2019/01/20 20:20:40 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 20:20:40 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 20:20:40 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 20:20:40 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 20:20:40 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 20:20:40 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 20:20:40 ready!
+[DDoSakura]: 2019/01/20 20:20:40 :3000
+[DDoSakura]: 2019/01/20 20:21:36 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/20 20:21:36 loading directory...
+[DDoSakura]: 2019/01/20 20:21:36 watcher add ->  ./test
+[DDoSakura]: 2019/01/20 20:21:36 :3000
+[DDoSakura]: 2019/01/20 20:21:36 watcher add ->  test/l
+[DDoSakura]: 2019/01/20 20:21:36 watcher add ->  ./test2
+[DDoSakura]: 2019/01/20 20:21:36 watcher add ->  test2/a
+[DDoSakura]: 2019/01/20 20:21:36 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/20 20:21:36 watcher add ->  test2/b
+[DDoSakura]: 2019/01/20 20:21:36 ready!
+[DDoSakura]: 2019/01/21 00:13:32 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:13:32 loading directory...
+[DDoSakura]: 2019/01/21 00:13:32 :3000
+[DDoSakura]: 2019/01/21 00:13:32 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:13:32 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:13:32 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:13:32 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:13:32 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:13:32 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:13:32 ready!
+[DDoSakura]: 2019/01/21 00:14:53 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:14:53 loading directory...
+[DDoSakura]: 2019/01/21 00:14:53 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:14:53 :3000
+[DDoSakura]: 2019/01/21 00:14:53 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:14:53 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:14:53 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:14:53 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:14:53 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:14:53 ready!
+[DDoSakura]: 2019/01/21 00:15:12 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:15:12 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:15:12 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:15:12 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:15:12 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:15:12 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:15:12 end 
+[DDoSakura]: 2019/01/21 00:18:59 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:18:59 loading directory...
+[DDoSakura]: 2019/01/21 00:18:59 :3000
+[DDoSakura]: 2019/01/21 00:18:59 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:18:59 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:18:59 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:18:59 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:18:59 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:18:59 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:18:59 ready!
+[DDoSakura]: 2019/01/21 00:19:17 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:19:17 loading directory...
+[DDoSakura]: 2019/01/21 00:19:17 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:19:17 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:19:17 :3000
+[DDoSakura]: 2019/01/21 00:19:17 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:19:17 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:19:17 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:19:17 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:19:17 ready!
+[DDoSakura]: 2019/01/21 00:19:33 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:19:33 loading directory...
+[DDoSakura]: 2019/01/21 00:19:33 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:19:33 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:19:33 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:19:33 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:19:33 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:19:33 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:19:33 ready!
+[DDoSakura]: 2019/01/21 00:19:33 :3000
+[DDoSakura]: 2019/01/21 00:20:26 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:20:26 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:20:26 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:20:26 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:20:26 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:20:26 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:20:26 end 
+[DDoSakura]: 2019/01/21 00:22:28 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:22:28 loading directory...
+[DDoSakura]: 2019/01/21 00:22:28 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:22:28 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:22:28 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:22:28 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:22:28 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:22:28 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:22:28 ready!
+[DDoSakura]: 2019/01/21 00:22:28 :3000
+[DDoSakura]: 2019/01/21 00:25:06 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:25:06 loading directory...
+[DDoSakura]: 2019/01/21 00:25:06 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:25:06 :3000
+[DDoSakura]: 2019/01/21 00:25:06 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:25:06 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:25:06 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:25:06 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:25:06 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:25:06 ready!
+[DDoSakura]: 2019/01/21 00:26:27 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:26:27 loading directory...
+[DDoSakura]: 2019/01/21 00:26:27 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:26:27 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:26:27 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:26:27 :3000
+[DDoSakura]: 2019/01/21 00:26:27 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:26:27 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:26:27 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:26:27 ready!
+[DDoSakura]: 2019/01/21 00:29:01 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:29:01 loading directory...
+[DDoSakura]: 2019/01/21 00:29:01 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:29:01 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:29:01 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:29:01 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:29:01 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:29:01 :3000
+[DDoSakura]: 2019/01/21 00:29:01 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:29:01 ready!
+[DDoSakura]: 2019/01/21 00:29:24 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:29:24 loading directory...
+[DDoSakura]: 2019/01/21 00:29:24 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:29:24 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:29:24 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:29:24 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:29:24 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:29:24 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:29:24 ready!
+[DDoSakura]: 2019/01/21 00:29:24 :3000
+[DDoSakura]: 2019/01/21 00:29:42 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:29:42 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:29:42 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:29:42 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:29:42 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:29:42 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:29:42 end 
+[DDoSakura]: 2019/01/21 00:30:44 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:30:44 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:30:44 err:  os: process already finished
+[DDoSakura]: 2019/01/21 00:30:44 stop old process 
+[DDoSakura]: 2019/01/21 00:30:44 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:30:44 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:30:44 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:30:44 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:30:44 end 
+[DDoSakura]: 2019/01/21 00:31:46 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:31:46 loading directory...
+[DDoSakura]: 2019/01/21 00:31:46 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:31:46 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:31:46 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:31:46 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:31:46 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:31:46 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:31:46 ready!
+[DDoSakura]: 2019/01/21 00:31:46 :3000
+[DDoSakura]: 2019/01/21 00:31:58 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:31:58 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:31:58 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:31:58 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:31:58 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:31:58 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:31:58 end 
+[DDoSakura]: 2019/01/21 00:34:01 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:34:01 loading directory...
+[DDoSakura]: 2019/01/21 00:34:01 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:34:01 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:34:01 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:34:01 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:34:01 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:34:01 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:34:01 ready!
+[DDoSakura]: 2019/01/21 00:34:01 :3000
+[DDoSakura]: 2019/01/21 00:34:08 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:34:08 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:34:08 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:34:08 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:34:08 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:34:08 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:34:08 end 
+[DDoSakura]: 2019/01/21 00:37:16 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:37:16 loading directory...
+[DDoSakura]: 2019/01/21 00:37:16 :3000
+[DDoSakura]: 2019/01/21 00:37:16 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:37:16 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:37:16 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:37:16 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:37:16 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:37:16 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:37:16 ready!
+[DDoSakura]: 2019/01/21 00:38:40 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:38:40 loading directory...
+[DDoSakura]: 2019/01/21 00:38:40 :3000
+[DDoSakura]: 2019/01/21 00:38:40 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:38:40 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:38:40 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:38:40 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:38:40 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:38:40 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:38:40 ready!
+[DDoSakura]: 2019/01/21 00:39:59 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:39:59 loading directory...
+[DDoSakura]: 2019/01/21 00:39:59 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:39:59 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:39:59 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:39:59 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:39:59 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:39:59 :3000
+[DDoSakura]: 2019/01/21 00:39:59 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:39:59 ready!
+[DDoSakura]: 2019/01/21 00:43:40 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:43:40 loading directory...
+[DDoSakura]: 2019/01/21 00:43:40 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:43:40 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:43:40 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:43:40 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:43:40 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:43:40 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:43:40 :3000
+[DDoSakura]: 2019/01/21 00:43:40 ready!
+[DDoSakura]: 2019/01/21 00:44:58 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:44:58 loading directory...
+[DDoSakura]: 2019/01/21 00:44:58 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:44:58 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:44:58 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:44:58 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:44:58 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:44:58 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:44:58 ready!
+[DDoSakura]: 2019/01/21 00:44:58 :3000
+[DDoSakura]: 2019/01/21 00:47:21 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:47:21 loading directory...
+[DDoSakura]: 2019/01/21 00:47:21 :3000
+[DDoSakura]: 2019/01/21 00:47:21 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:47:21 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:47:21 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:47:21 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:47:21 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:47:21 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:47:21 ready!
+[DDoSakura]: 2019/01/21 00:47:37  [.html .js .css] false
+[DDoSakura]: 2019/01/21 00:47:37 EVENT RENAME test/index.html
+[DDoSakura]: 2019/01/21 00:47:37 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 00:47:37 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 00:47:37 fresh webpage
+[DDoSakura]: 2019/01/21 00:47:37 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 00:47:37 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:47:37 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:47:37 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:47:37 end 
+[DDoSakura]: 2019/01/21 00:48:23 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:48:23 loading directory...
+[DDoSakura]: 2019/01/21 00:48:23 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:48:23 :3000
+[DDoSakura]: 2019/01/21 00:48:23 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:48:23 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:48:23 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:48:23 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:48:23 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:48:23 ready!
+[DDoSakura]: 2019/01/21 00:48:30  [.html .js .css] false
+[DDoSakura]: 2019/01/21 00:48:30 EVENT RENAME test/index.html
+[DDoSakura]: 2019/01/21 00:48:30 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 00:48:30 fresh webpage
+[DDoSakura]: 2019/01/21 00:48:30 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 00:48:30 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:48:30 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:48:30 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:48:30 end 
+[DDoSakura]: 2019/01/21 00:50:18 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:50:18 loading directory...
+[DDoSakura]: 2019/01/21 00:50:18 :3000
+[DDoSakura]: 2019/01/21 00:50:18 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:50:18 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:50:18 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:50:18 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:50:18 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:50:18 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:50:18 ready!
+[DDoSakura]: 2019/01/21 00:50:28 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:50:28 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:50:28 fresh webpage
+[DDoSakura]: 2019/01/21 00:50:28 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:50:28 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:50:28 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:50:28 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:50:28 end 
+[DDoSakura]: 2019/01/21 00:51:30 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:51:30 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:51:30 err:  os: process already finished
+[DDoSakura]: 2019/01/21 00:51:30 stop old process 
+[DDoSakura]: 2019/01/21 00:51:30 fresh webpage
+[DDoSakura]: 2019/01/21 00:51:30 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:51:30 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:51:30 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:51:30 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:51:30 end 
+[DDoSakura]: 2019/01/21 00:53:41 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:53:41 loading directory...
+[DDoSakura]: 2019/01/21 00:53:41 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:53:41 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:53:41 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:53:41 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:53:41 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:53:41 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:53:41 ready!
+[DDoSakura]: 2019/01/21 00:53:41 :3000
+[DDoSakura]: 2019/01/21 00:56:06 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:56:06 loading directory...
+[DDoSakura]: 2019/01/21 00:56:06 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:56:06 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:56:06 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:56:06 :3000
+[DDoSakura]: 2019/01/21 00:56:06 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:56:06 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:56:06 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:56:06 ready!
+[DDoSakura]: 2019/01/21 00:56:16 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:56:16 loading directory...
+[DDoSakura]: 2019/01/21 00:56:16 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:56:16 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:56:16 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:56:16 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:56:16 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:56:16 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:56:16 ready!
+[DDoSakura]: 2019/01/21 00:56:16 :3000
+[DDoSakura]: 2019/01/21 00:56:33 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:56:33 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:56:33 fresh webpage
+[DDoSakura]: 2019/01/21 00:56:33 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:56:33 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:56:33 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:56:33 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:56:33 end 
+[DDoSakura]: 2019/01/21 00:56:45 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:56:45 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:56:45 err:  os: process already finished
+[DDoSakura]: 2019/01/21 00:56:45 stop old process 
+[DDoSakura]: 2019/01/21 00:56:45 fresh webpage
+[DDoSakura]: 2019/01/21 00:56:45 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:56:45 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:56:45 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:56:45 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:56:45 end 
+[DDoSakura]: 2019/01/21 00:56:49 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:56:49 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:56:49 err:  os: process already finished
+[DDoSakura]: 2019/01/21 00:56:49 stop old process 
+[DDoSakura]: 2019/01/21 00:56:49 fresh webpage
+[DDoSakura]: 2019/01/21 00:56:49 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:56:49 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:56:49 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:56:49 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:56:49 end 
+[DDoSakura]: 2019/01/21 00:57:06 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:57:06 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:57:06 err:  os: process already finished
+[DDoSakura]: 2019/01/21 00:57:06 stop old process 
+[DDoSakura]: 2019/01/21 00:57:06 fresh webpage
+[DDoSakura]: 2019/01/21 00:57:06 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:57:06 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:57:06 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:57:06 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:57:06 end 
+[DDoSakura]: 2019/01/21 00:57:18 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:57:18 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:57:18 err:  os: process already finished
+[DDoSakura]: 2019/01/21 00:57:18 stop old process 
+[DDoSakura]: 2019/01/21 00:57:18 fresh webpage
+[DDoSakura]: 2019/01/21 00:57:18 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:57:18 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:57:18 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:57:18 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:57:18 end 
+[DDoSakura]: 2019/01/21 00:57:30 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:57:30 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:57:30 err:  os: process already finished
+[DDoSakura]: 2019/01/21 00:57:30 stop old process 
+[DDoSakura]: 2019/01/21 00:57:30 fresh webpage
+[DDoSakura]: 2019/01/21 00:57:30 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:57:30 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:57:30 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:57:30 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:57:30 end 
+[DDoSakura]: 2019/01/21 00:58:42 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:58:42 loading directory...
+[DDoSakura]: 2019/01/21 00:58:42 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:58:42 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:58:42 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:58:42 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:58:42 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:58:42 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:58:42 ready!
+[DDoSakura]: 2019/01/21 00:58:42 :3000
+[DDoSakura]: 2019/01/21 00:58:47 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:58:47 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:58:47 fresh webpage
+[DDoSakura]: 2019/01/21 00:58:47 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:58:47 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:58:47 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:58:47 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:58:47 end 
+[DDoSakura]: 2019/01/21 00:59:21 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 00:59:21 loading directory...
+[DDoSakura]: 2019/01/21 00:59:21 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 00:59:21 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 00:59:21 :3000
+[DDoSakura]: 2019/01/21 00:59:21 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 00:59:21 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 00:59:21 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 00:59:21 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 00:59:21 ready!
+[DDoSakura]: 2019/01/21 00:59:29 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:59:29 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 00:59:29 fresh webpage
+[DDoSakura]: 2019/01/21 00:59:29 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 00:59:29 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:59:29 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 00:59:29 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 00:59:29 end 
+[DDoSakura]: 2019/01/21 01:00:30 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 01:00:30 loading directory...
+[DDoSakura]: 2019/01/21 01:00:30 :3000
+[DDoSakura]: 2019/01/21 01:00:30 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 01:00:30 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 01:00:30 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 01:00:30 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 01:00:30 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 01:00:30 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 01:00:30 ready!
+[DDoSakura]: 2019/01/21 01:17:09 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 01:17:09 loading directory...
+[DDoSakura]: 2019/01/21 01:17:09 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 01:17:09 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 01:17:09 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 01:17:09 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 01:17:09 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 01:17:09 :3000
+[DDoSakura]: 2019/01/21 01:17:09 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 01:17:09 ready!
+[DDoSakura]: 2019/01/21 01:17:51 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 01:17:51 
+[DDoSakura]: 2019/01/21 01:17:56 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 01:17:56 asfdg
+[DDoSakura]: 2019/01/21 01:18:25 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 01:18:25 asfdg
+[DDoSakura]: 2019/01/21 01:29:56 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 01:29:56 [git add ./test]
+[DDoSakura]: 2019/01/21 01:29:56 [git add ./test2]
+[DDoSakura]: 2019/01/21 01:29:56 [git commit -m asfdg]
+[DDoSakura]: 2019/01/21 01:31:56 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 01:31:56 [git add ./test]
+[DDoSakura]: 2019/01/21 01:31:56 [git add ./test2]
+[DDoSakura]: 2019/01/21 01:31:56 [git commit -m asfdg]
+[DDoSakura]: 2019/01/21 01:31:56 [git push]
+[DDoSakura]: 2019/01/21 01:32:48 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 01:32:48 [git add ./test]
+[DDoSakura]: 2019/01/21 01:32:48 [git add ./test2]
+[DDoSakura]: 2019/01/21 01:32:48 [git commit -m asfdg]
+[DDoSakura]: 2019/01/21 01:32:48 [git push]
+[DDoSakura]: 2019/01/21 01:37:37 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 01:37:37 [git add ./test]
+[DDoSakura]: 2019/01/21 01:37:37 exec: "git add": executable file not found in $PATH
+[DDoSakura]: 2019/01/21 01:37:37 cmd wait err  exec: not started
+[DDoSakura]: 2019/01/21 01:37:37 [git add ./test2]
+[DDoSakura]: 2019/01/21 01:37:37 exec: "git add": executable file not found in $PATH
+[DDoSakura]: 2019/01/21 01:37:37 cmd wait err  exec: not started
+[DDoSakura]: 2019/01/21 01:37:37 [git commit -m asfdg]
+[DDoSakura]: 2019/01/21 01:37:37 exec: "git commit -m": executable file not found in $PATH
+[DDoSakura]: 2019/01/21 01:37:37 cmd wait err  exec: not started
+[DDoSakura]: 2019/01/21 01:37:37 [git push]
+[DDoSakura]: 2019/01/21 01:37:37 exec: "git push": executable file not found in $PATH
+[DDoSakura]: 2019/01/21 01:37:37 cmd wait err  exec: not started
+[DDoSakura]: 2019/01/21 01:39:08 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 01:39:08 [git add ./test]
+[DDoSakura]: 2019/01/21 01:39:08 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 01:39:08 [git add ./test2]
+[DDoSakura]: 2019/01/21 01:39:08 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 01:39:08 [git commit -m asfdg]
+[DDoSakura]: 2019/01/21 01:39:08 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 01:39:08 [git push]
+[DDoSakura]: 2019/01/21 01:39:08 cmd wait err  exit status 128

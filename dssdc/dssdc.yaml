@@ -1,0 +1,23 @@
+api:
+  notifier: ""
+  root: http://localhost:2000/
+  upload: ""
+command:
+  delaymillsecond: 10
+  exec:
+  - echo fresh {{file}}
+  - uname -a
+developer: ArchSakuraMo
+localdb: ./dssdc.db
+monitor:
+  exceptdirs:
+  - local
+  includedirs:
+  - ./test
+  - ./test2
+  types:
+  - .html
+  - .js
+  - .css
+port: 3000
+project: Unknow
