@@ -1,5 +1,5 @@
 api:
-  root: http://localhost:2000/
+  root: http://kod.yxy.moyinzi.top/
   upload: ""
   notifier: ""
 command:
