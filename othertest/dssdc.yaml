@@ -1,0 +1,18 @@
+api:
+  root: http://localhost:2000/
+  upload: ""
+  notifier: ""
+command:
+  exec:
+  - echo fresh
+  delayMillSecond: 1
+developer: Myz
+localdb: ../othertest/dssdc.db
+monitor:
+  types:
+  - .go
+  includeDirs:
+  - ../othertest
+  usewebpage: true
+port: 3000
+project: 2018-iOS-Club

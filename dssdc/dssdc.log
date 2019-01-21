@@ -649,3 +649,3331 @@
 [DDoSakura]: 2019/01/21 01:39:08 cmd cannot kill  os: process already finished
 [DDoSakura]: 2019/01/21 01:39:08 [git push]
 [DDoSakura]: 2019/01/21 01:39:08 cmd wait err  exit status 128
+[DDoSakura]: 2019/01/21 01:42:33 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 01:42:33 [git add ./test]
+[DDoSakura]: 2019/01/21 01:42:33 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 01:42:33 [git add ./test2]
+[DDoSakura]: 2019/01/21 01:42:33 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 01:42:33 [git commit -m dssdc publish 测试 git]
+[DDoSakura]: 2019/01/21 01:42:33 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 01:42:33 [git push]
+[DDoSakura]: 2019/01/21 01:42:39 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 02:06:06 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 02:06:06 loading directory...
+[DDoSakura]: 2019/01/21 02:06:06 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 02:06:06 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 02:06:06 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 02:06:06 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 02:06:06 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 02:06:06 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 02:06:06 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 02:06:06 ready!
+[DDoSakura]: 2019/01/21 02:06:06 :3000
+[DDoSakura]: 2019/01/21 02:06:06 map[/app/./test:./test /app/./test2:./test2 /app/./test3/test:./test3/test]
+[DDoSakura]: 2019/01/21 02:08:26 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 02:08:26 loading directory...
+[DDoSakura]: 2019/01/21 02:08:26 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 02:08:26 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 02:08:26 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 02:08:26 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 02:08:26 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 02:08:26 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 02:08:26 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 02:08:26 ready!
+[DDoSakura]: 2019/01/21 02:08:26 :3000
+[DDoSakura]: 2019/01/21 02:08:26 map[/app/test:./test /app/test2:./test2 /app/test3/test:./test3/test]
+[DDoSakura]: 2019/01/21 02:10:15 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 02:10:15 loading directory...
+[DDoSakura]: 2019/01/21 02:10:15 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 02:10:15 :3000
+[DDoSakura]: 2019/01/21 02:10:15 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 02:10:15 map[/app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2 /app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test /app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test]
+[DDoSakura]: 2019/01/21 02:10:15 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 02:10:15 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 02:10:15 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 02:10:15 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 02:10:15 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 02:10:15 ready!
+[DDoSakura]: 2019/01/21 02:50:51 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 02:50:51 loading directory...
+[DDoSakura]: 2019/01/21 02:50:51 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 02:50:51 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 02:50:51 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 02:50:51 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 02:50:51 :3000
+[DDoSakura]: 2019/01/21 02:50:51 map[/app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test /app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2 /app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test]
+[DDoSakura]: 2019/01/21 02:50:51 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 02:50:51 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 02:50:51 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 02:50:51 ready!
+[DDoSakura]: 2019/01/21 02:51:46 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 02:51:46 loading directory...
+[DDoSakura]: 2019/01/21 02:51:46 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 02:51:46 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 02:51:46 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 02:51:46 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 02:51:46 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 02:51:46 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 02:51:46 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 02:51:46 ready!
+[DDoSakura]: 2019/01/21 02:51:46 :3000
+[DDoSakura]: 2019/01/21 02:51:46 map[/app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test /app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test /app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2]
+[DDoSakura]: 2019/01/21 02:53:53 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 02:53:53 loading directory...
+[DDoSakura]: 2019/01/21 02:53:53 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 02:53:53 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 02:53:53 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 02:53:53 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 02:53:53 :3000
+[DDoSakura]: 2019/01/21 02:53:53 map[/app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test /app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2 /app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test]
+[DDoSakura]: 2019/01/21 02:53:53 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 02:53:53 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 02:53:53 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 02:53:53 ready!
+[DDoSakura]: 2019/01/21 02:58:17 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 02:58:17 loading directory...
+[DDoSakura]: 2019/01/21 02:58:17 :3000
+[DDoSakura]: 2019/01/21 02:58:17 map[/app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test /app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2 /app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test]
+[DDoSakura]: 2019/01/21 02:58:17 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 02:58:17 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 02:58:17 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 02:58:17 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 02:58:17 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 02:58:17 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 02:58:17 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 02:58:17 ready!
+[DDoSakura]: 2019/01/21 03:01:02 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 03:01:02 loading directory...
+[DDoSakura]: 2019/01/21 03:01:02 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 03:01:02 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 03:01:02 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 03:01:02 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 03:01:02 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 03:01:02 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 03:01:02 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 03:01:02 ready!
+[DDoSakura]: 2019/01/21 03:01:02 :3000
+[DDoSakura]: 2019/01/21 03:01:02 map[/app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test /app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test /app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2]
+[DDoSakura]: 2019/01/21 03:02:30 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 03:02:30 loading directory...
+[DDoSakura]: 2019/01/21 03:02:30 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 03:02:30 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 03:02:30 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 03:02:30 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 03:02:30 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 03:02:30 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 03:02:30 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 03:02:30 ready!
+[DDoSakura]: 2019/01/21 03:02:30 :3000
+[DDoSakura]: 2019/01/21 03:02:30 map[/app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test /app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2 /app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test]
+[DDoSakura]: 2019/01/21 03:04:00 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 03:04:00 loading directory...
+[DDoSakura]: 2019/01/21 03:04:00 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 03:04:00 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 03:04:00 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 03:04:00 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 03:04:00 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 03:04:00 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 03:04:00 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 03:04:00 ready!
+[DDoSakura]: 2019/01/21 03:04:00 :3000
+[DDoSakura]: 2019/01/21 03:04:00 map[/app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2 /app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test /app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test]
+[DDoSakura]: 2019/01/21 03:05:03 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 03:05:03 loading directory...
+[DDoSakura]: 2019/01/21 03:05:03 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 03:05:03 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 03:05:03 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 03:05:03 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 03:05:03 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 03:05:03 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 03:05:03 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 03:05:03 ready!
+[DDoSakura]: 2019/01/21 03:05:03 :3000
+[DDoSakura]: 2019/01/21 03:05:03 map[/app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2 /app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test /app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test]
+[DDoSakura]: 2019/01/21 03:05:47 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 03:05:47 loading directory...
+[DDoSakura]: 2019/01/21 03:05:47 :3000
+[DDoSakura]: 2019/01/21 03:05:47 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 03:05:47 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 03:05:47 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 03:05:47 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 03:05:47 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 03:05:47 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 03:05:47 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 03:05:47 ready!
+[DDoSakura]: 2019/01/21 03:05:47 map[/app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test /app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test /app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2]
+[DDoSakura]: 2019/01/21 03:06:48 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 03:06:48 loading directory...
+[DDoSakura]: 2019/01/21 03:06:48 :3000
+[DDoSakura]: 2019/01/21 03:06:48 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 03:06:48 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 03:06:48 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 03:06:48 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 03:06:48 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 03:06:48 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 03:06:48 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 03:06:48 ready!
+[DDoSakura]: 2019/01/21 03:06:48 map[/app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2 /app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test /app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test]
+[DDoSakura]: 2019/01/21 03:07:18 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 03:07:18 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 03:07:18 fresh webpage
+[DDoSakura]: 2019/01/21 03:07:18 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 03:07:18 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 03:07:18 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 03:07:18 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 03:07:18 end 
+[DDoSakura]: 2019/01/21 03:07:27 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 03:07:27 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 03:07:27 err:  os: process already finished
+[DDoSakura]: 2019/01/21 03:07:27 stop old process 
+[DDoSakura]: 2019/01/21 03:07:27 fresh webpage
+[DDoSakura]: 2019/01/21 03:07:27 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 03:07:27 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 03:07:27 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 03:07:27 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 03:07:27 end 
+[DDoSakura]: 2019/01/21 13:01:52 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:01:52 create /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:01:52 init /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.db
+[DDoSakura]: 2019/01/21 13:03:41 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:03:41 loading directory...
+[DDoSakura]: 2019/01/21 13:03:41 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:03:41 :3000
+[DDoSakura]: 2019/01/21 13:03:41 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:03:41 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:03:41 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:03:41 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:03:41 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:03:41 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:03:41 ready!
+[DDoSakura]: 2019/01/21 13:04:49 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:04:49 create /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:04:49 init /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.db
+[DDoSakura]: 2019/01/21 13:05:23 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:05:23 loading directory...
+[DDoSakura]: 2019/01/21 13:05:23 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:05:23 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:05:23 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:05:23 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:05:23 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:05:23 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:05:23 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:05:23 ready!
+[DDoSakura]: 2019/01/21 13:05:23 :3000
+[DDoSakura]: 2019/01/21 13:05:23 map[/app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test /app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2 /app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test]
+[DDoSakura]: 2019/01/21 13:06:01 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:06:01 loading directory...
+[DDoSakura]: 2019/01/21 13:06:01 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:06:01 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:06:01 :3000
+[DDoSakura]: 2019/01/21 13:06:01 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:06:01 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:06:01 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:06:01 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:06:01 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:06:01 ready!
+[DDoSakura]: 2019/01/21 13:06:13 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:06:13 loading directory...
+[DDoSakura]: 2019/01/21 13:06:13 :3000
+[DDoSakura]: 2019/01/21 13:06:13 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:06:13 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:06:13 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:06:13 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:06:13 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:06:13 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:06:13 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:06:13 ready!
+[DDoSakura]: 2019/01/21 13:06:13 map[/app/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test /app/test2:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test2 /app/test3/test:/home/moyinzi/projects/ds-watcher/simple-dev/dssdc/test3/test]
+[DDoSakura]: 2019/01/21 13:20:27 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:20:27 loading directory...
+[DDoSakura]: 2019/01/21 13:20:27 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:20:27 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:20:27 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:20:27 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:20:27 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:20:27 :3000
+[DDoSakura]: 2019/01/21 13:20:27 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:20:27 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:20:27 ready!
+[DDoSakura]: 2019/01/21 13:20:43 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:20:43 loading directory...
+[DDoSakura]: 2019/01/21 13:20:43 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:20:43 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:20:43 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:20:43 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:20:43 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:20:43 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:20:43 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:20:43 ready!
+[DDoSakura]: 2019/01/21 13:20:43 :3000
+[DDoSakura]: 2019/01/21 13:21:56 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:21:56 loading directory...
+[DDoSakura]: 2019/01/21 13:21:56 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:21:56 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:21:56 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:21:56 :3000
+[DDoSakura]: 2019/01/21 13:21:56 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:21:56 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:21:56 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:21:56 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:21:56 ready!
+[DDoSakura]: 2019/01/21 13:23:17 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:23:17 loading directory...
+[DDoSakura]: 2019/01/21 13:23:17 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:23:17 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:23:17 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:23:17 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:23:17 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:23:17 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:23:17 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:23:17 ready!
+[DDoSakura]: 2019/01/21 13:23:17 :3000
+[DDoSakura]: 2019/01/21 13:50:27 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:50:27 loading directory...
+[DDoSakura]: 2019/01/21 13:50:27 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:50:27 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:50:27 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:50:27 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:50:27 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:50:27 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:50:27 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:50:27 ready!
+[DDoSakura]: 2019/01/21 13:50:27 :3000
+[DDoSakura]: 2019/01/21 13:52:37 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:52:37 loading directory...
+[DDoSakura]: 2019/01/21 13:52:37 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:52:37 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:52:37 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:52:37 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:52:37 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:52:37 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:52:37 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:52:37 :3000
+[DDoSakura]: 2019/01/21 13:52:37 ready!
+[DDoSakura]: 2019/01/21 13:54:12 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:54:12 loading directory...
+[DDoSakura]: 2019/01/21 13:54:12 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:54:12 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:54:12 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:54:12 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:54:12 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:54:12 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:54:12 :3000
+[DDoSakura]: 2019/01/21 13:54:12 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:54:12 ready!
+[DDoSakura]: 2019/01/21 13:57:26 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:57:26 loading directory...
+[DDoSakura]: 2019/01/21 13:57:26 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:57:26 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:57:26 :3000
+[DDoSakura]: 2019/01/21 13:57:26 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:57:26 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:57:26 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:57:26 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:57:26 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:57:26 ready!
+[DDoSakura]: 2019/01/21 13:58:00 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:58:00 loading directory...
+[DDoSakura]: 2019/01/21 13:58:00 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:58:00 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:58:00 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:58:00 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:58:00 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:58:00 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:58:00 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:58:00 ready!
+[DDoSakura]: 2019/01/21 13:58:00 :3000
+[DDoSakura]: 2019/01/21 13:58:47 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 13:58:47 loading directory...
+[DDoSakura]: 2019/01/21 13:58:47 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 13:58:47 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 13:58:47 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 13:58:47 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 13:58:47 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 13:58:47 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 13:58:47 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 13:58:47 ready!
+[DDoSakura]: 2019/01/21 13:58:47 :3000
+[DDoSakura]: 2019/01/21 14:00:14 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:00:14 loading directory...
+[DDoSakura]: 2019/01/21 14:00:14 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:00:14 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:00:14 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:00:14 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:00:14 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:00:14 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:00:14 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:00:14 ready!
+[DDoSakura]: 2019/01/21 14:00:14 :3000
+[DDoSakura]: 2019/01/21 14:01:49 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:01:49 loading directory...
+[DDoSakura]: 2019/01/21 14:01:49 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:01:49 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:01:49 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:01:49 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:01:49 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:01:49 :3000
+[DDoSakura]: 2019/01/21 14:01:49 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:01:49 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:01:49 ready!
+[DDoSakura]: 2019/01/21 14:03:14 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:03:14 loading directory...
+[DDoSakura]: 2019/01/21 14:03:14 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:03:14 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:03:14 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:03:14 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:03:14 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:03:14 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:03:14 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:03:14 ready!
+[DDoSakura]: 2019/01/21 14:03:14 :3000
+[DDoSakura]: 2019/01/21 14:04:17 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:04:17 loading directory...
+[DDoSakura]: 2019/01/21 14:04:17 :3000
+[DDoSakura]: 2019/01/21 14:04:17 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:04:17 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:04:17 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:04:17 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:04:17 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:04:17 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:04:17 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:04:17 ready!
+[DDoSakura]: 2019/01/21 14:05:54 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:05:54 loading directory...
+[DDoSakura]: 2019/01/21 14:05:54 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:05:54 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:05:54 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:05:54 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:05:54 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:05:54 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:05:54 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:05:54 ready!
+[DDoSakura]: 2019/01/21 14:05:54 :3000
+[DDoSakura]: 2019/01/21 14:14:30 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:14:30 loading directory...
+[DDoSakura]: 2019/01/21 14:14:30 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:14:30 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:14:30 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:14:30 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:14:30 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:14:30 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:14:30 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:14:30 ready!
+[DDoSakura]: 2019/01/21 14:14:30 :3000
+[DDoSakura]: 2019/01/21 14:15:23 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:15:23 loading directory...
+[DDoSakura]: 2019/01/21 14:15:23 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:15:23 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:15:23 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:15:23 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:15:23 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:15:23 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:15:23 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:15:23 ready!
+[DDoSakura]: 2019/01/21 14:15:23 :3000
+[DDoSakura]: 2019/01/21 14:18:16 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:18:16 loading directory...
+[DDoSakura]: 2019/01/21 14:18:16 :3000
+[DDoSakura]: 2019/01/21 14:18:16 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:18:16 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:18:16 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:18:16 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:18:16 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:18:16 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:18:16 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:18:16 ready!
+[DDoSakura]: 2019/01/21 14:18:35 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:18:35 loading directory...
+[DDoSakura]: 2019/01/21 14:18:35 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:18:35 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:18:35 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:18:35 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:18:35 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:18:35 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:18:35 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:18:35 ready!
+[DDoSakura]: 2019/01/21 14:18:35 :3000
+[DDoSakura]: 2019/01/21 14:20:37 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 14:20:37 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 14:20:37 fresh webpage
+[DDoSakura]: 2019/01/21 14:20:37 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 14:20:37 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:20:37 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 14:20:37 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:20:37 end 
+[DDoSakura]: 2019/01/21 14:21:21 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 14:21:21 EVENT WRITE test/l/a.html
+[DDoSakura]: 2019/01/21 14:21:21 err:  os: process already finished
+[DDoSakura]: 2019/01/21 14:21:21 stop old process 
+[DDoSakura]: 2019/01/21 14:21:21 fresh webpage
+[DDoSakura]: 2019/01/21 14:21:21 EXEC [echo fresh test/l/a.html]
+[DDoSakura]: 2019/01/21 14:21:21 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:21:21 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 14:21:21 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:21:21 end 
+[DDoSakura]: 2019/01/21 14:22:48 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:22:48 loading directory...
+[DDoSakura]: 2019/01/21 14:22:48 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 14:22:48 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:22:48 :3000
+[DDoSakura]: 2019/01/21 14:22:48 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:22:48 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:22:48 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:22:48 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:22:48 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:22:48 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:22:48 ready!
+[DDoSakura]: 2019/01/21 14:23:31 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 14:23:31 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 14:23:31 fresh webpage
+[DDoSakura]: 2019/01/21 14:23:31 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 14:23:31 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:23:31 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 14:23:31 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:23:31 end 
+[DDoSakura]: 2019/01/21 14:23:35 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 14:23:35 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 14:23:35 err:  os: process already finished
+[DDoSakura]: 2019/01/21 14:23:35 stop old process 
+[DDoSakura]: 2019/01/21 14:23:35 fresh webpage
+[DDoSakura]: 2019/01/21 14:23:35 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 14:23:35 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:23:35 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 14:23:35 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:23:35 end 
+[DDoSakura]: 2019/01/21 14:24:30 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:24:30 loading directory...
+[DDoSakura]: 2019/01/21 14:24:30 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 14:24:30 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:24:30 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:24:30 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:24:30 :3000
+[DDoSakura]: 2019/01/21 14:24:30 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:24:30 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:24:30 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:24:30 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:24:30 ready!
+[DDoSakura]: 2019/01/21 14:24:43 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 14:24:43 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 14:24:43 fresh webpage
+[DDoSakura]: 2019/01/21 14:24:43 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 14:24:43 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:24:43 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 14:24:43 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:24:43 end 
+[DDoSakura]: 2019/01/21 14:54:00 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:54:00 loading directory...
+[DDoSakura]: 2019/01/21 14:54:00 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 14:54:00 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:54:00 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:54:00 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:54:00 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:54:00 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:54:00 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:54:00 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:54:00 ready!
+[DDoSakura]: 2019/01/21 14:54:00 :3000
+[DDoSakura]: 2019/01/21 14:54:00 WARNING statik/fs: no zip data registered
+[DDoSakura]: 2019/01/21 14:54:00 WARNING statik/fs: no zip data registered
+[DDoSakura]: 2019/01/21 14:54:00 WARNING statik/fs: no zip data registered
+[DDoSakura]: 2019/01/21 14:54:00 WARNING statik/fs: no zip data registered
+[DDoSakura]: 2019/01/21 14:54:39 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:54:39 loading directory...
+[DDoSakura]: 2019/01/21 14:54:39 :3000
+[DDoSakura]: 2019/01/21 14:54:39 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 14:54:39 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:54:39 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:54:39 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:54:39 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:54:39 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:54:39 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:54:39 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:54:39 ready!
+[DDoSakura]: 2019/01/21 14:55:57 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 14:55:57 loading directory...
+[DDoSakura]: 2019/01/21 14:55:57 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 14:55:57 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 14:55:57 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 14:55:57 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 14:55:57 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 14:55:57 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 14:55:57 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 14:55:57 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 14:55:57 ready!
+[DDoSakura]: 2019/01/21 14:55:57 :3000
+[DDoSakura]: 2019/01/21 14:57:53 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 14:57:53 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 14:57:53 fresh webpage
+[DDoSakura]: 2019/01/21 14:57:53 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 14:57:53 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:57:53 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 14:57:53 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 14:57:53 end 
+[DDoSakura]: 2019/01/21 15:00:48 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 15:00:48 loading directory...
+[DDoSakura]: 2019/01/21 15:00:48 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 15:00:48 :3000
+[DDoSakura]: 2019/01/21 15:00:48 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 15:00:48 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 15:00:48 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 15:00:48 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 15:00:48 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 15:00:48 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 15:00:48 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 15:00:48 ready!
+[DDoSakura]: 2019/01/21 15:01:06 vfs open /
+[DDoSakura]: 2019/01/21 15:01:06 vfs stat 
+[DDoSakura]: 2019/01/21 15:01:06 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:01:06 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:01:06 vfs closing
+[DDoSakura]: 2019/01/21 15:01:06 vfs closing
+[DDoSakura]: 2019/01/21 15:01:22 vfs open /
+[DDoSakura]: 2019/01/21 15:01:22 vfs stat 
+[DDoSakura]: 2019/01/21 15:01:22 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:01:22 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:01:22 vfs closing
+[DDoSakura]: 2019/01/21 15:01:22 vfs closing
+[DDoSakura]: 2019/01/21 15:05:06 vfs open /
+[DDoSakura]: 2019/01/21 15:05:06 vfs stat 
+[DDoSakura]: 2019/01/21 15:05:06 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:05:06 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:05:06 vfs closing
+[DDoSakura]: 2019/01/21 15:05:06 vfs closing
+[DDoSakura]: 2019/01/21 15:07:26 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 15:07:26 loading directory...
+[DDoSakura]: 2019/01/21 15:07:26 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 15:07:26 :3000
+[DDoSakura]: 2019/01/21 15:07:26 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 15:07:26 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 15:07:26 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 15:07:26 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 15:07:26 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 15:07:26 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 15:07:26 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 15:07:26 ready!
+[DDoSakura]: 2019/01/21 15:09:51 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 15:09:51 loading directory...
+[DDoSakura]: 2019/01/21 15:09:51 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 15:09:51 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 15:09:51 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 15:09:51 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 15:09:51 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 15:09:51 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 15:09:51 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 15:09:51 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 15:09:51 ready!
+[DDoSakura]: 2019/01/21 15:09:51 :3000
+[DDoSakura]: 2019/01/21 15:11:38 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 15:11:38 loading directory...
+[DDoSakura]: 2019/01/21 15:11:38 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 15:11:38 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 15:11:38 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 15:11:38 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 15:11:38 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 15:11:38 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 15:11:38 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 15:11:38 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 15:11:38 ready!
+[DDoSakura]: 2019/01/21 15:11:38 :3000
+[DDoSakura]: 2019/01/21 15:20:18 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 15:20:18 loading directory...
+[DDoSakura]: 2019/01/21 15:20:18 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 15:20:18 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 15:20:18 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 15:20:18 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 15:20:18 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 15:20:18 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 15:20:18 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 15:20:18 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 15:20:18 ready!
+[DDoSakura]: 2019/01/21 15:20:18 :3000
+[DDoSakura]: 2019/01/21 15:21:01 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 15:21:01 loading directory...
+[DDoSakura]: 2019/01/21 15:21:01 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 15:21:01 :3000
+[DDoSakura]: 2019/01/21 15:21:01 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 15:21:01 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 15:21:01 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 15:21:01 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 15:21:01 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 15:21:01 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 15:21:01 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 15:21:01 ready!
+[DDoSakura]: 2019/01/21 15:22:10 EVENT WRITE test/main.js
+[DDoSakura]: 2019/01/21 15:22:10 EVENT WRITE test/main.js
+[DDoSakura]: 2019/01/21 15:22:10 fresh webpage
+[DDoSakura]: 2019/01/21 15:22:10 EXEC [echo fresh test/main.js]
+[DDoSakura]: 2019/01/21 15:22:10 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:22:10 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:22:10 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:22:10 end 
+[DDoSakura]: 2019/01/21 15:22:31 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 15:22:31 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 15:22:31 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:22:31 stop old process 
+[DDoSakura]: 2019/01/21 15:22:31 fresh webpage
+[DDoSakura]: 2019/01/21 15:22:31 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 15:22:31 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:22:31 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:22:31 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:22:31 end 
+[DDoSakura]: 2019/01/21 15:23:02 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 15:23:02 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 15:23:02 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:23:02 stop old process 
+[DDoSakura]: 2019/01/21 15:23:02 fresh webpage
+[DDoSakura]: 2019/01/21 15:23:02 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 15:23:02 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:23:02 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:23:02 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:23:02 end 
+[DDoSakura]: 2019/01/21 15:23:58 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 15:23:58 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 15:23:58 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:23:58 stop old process 
+[DDoSakura]: 2019/01/21 15:23:58 fresh webpage
+[DDoSakura]: 2019/01/21 15:23:58 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 15:23:58 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:23:58 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:23:58 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:23:58 end 
+[DDoSakura]: 2019/01/21 15:24:14 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 15:24:14 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 15:24:14 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:24:14 stop old process 
+[DDoSakura]: 2019/01/21 15:24:14 fresh webpage
+[DDoSakura]: 2019/01/21 15:24:14 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 15:24:14 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:24:14 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:24:14 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:24:14 end 
+[DDoSakura]: 2019/01/21 15:24:24 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 15:24:24 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 15:24:24 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:24:24 stop old process 
+[DDoSakura]: 2019/01/21 15:24:24 fresh webpage
+[DDoSakura]: 2019/01/21 15:24:24 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 15:24:25 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:24:25 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:24:25 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:24:25 end 
+[DDoSakura]: 2019/01/21 15:26:55 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 15:26:55 loading directory...
+[DDoSakura]: 2019/01/21 15:26:55 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 15:26:55 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 15:26:55 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 15:26:55 :3000
+[DDoSakura]: 2019/01/21 15:26:55 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 15:26:55 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 15:26:55 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 15:26:55 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 15:26:55 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 15:26:55 ready!
+[DDoSakura]: 2019/01/21 15:29:14 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 15:29:14 loading directory...
+[DDoSakura]: 2019/01/21 15:29:14 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 15:29:14 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 15:29:14 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 15:29:14 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 15:29:14 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 15:29:14 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 15:29:14 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 15:29:14 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 15:29:14 ready!
+[DDoSakura]: 2019/01/21 15:29:14 :3000
+[DDoSakura]: 2019/01/21 15:31:44 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 15:31:44 loading directory...
+[DDoSakura]: 2019/01/21 15:31:44 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 15:31:44 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 15:31:44 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 15:31:44 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 15:31:44 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 15:31:44 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 15:31:44 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 15:31:44 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 15:31:44 ready!
+[DDoSakura]: 2019/01/21 15:31:44 :3000
+[DDoSakura]: 2019/01/21 15:31:56 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 15:31:56 loading directory...
+[DDoSakura]: 2019/01/21 15:31:56 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 15:31:56 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 15:31:56 :3000
+[DDoSakura]: 2019/01/21 15:31:56 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 15:31:56 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 15:31:56 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 15:31:56 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 15:31:56 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 15:31:56 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 15:31:56 ready!
+[DDoSakura]: 2019/01/21 15:32:27 vfs open /l/a.html
+[DDoSakura]: 2019/01/21 15:32:27 vfs stat /l/a.html
+[DDoSakura]: 2019/01/21 15:32:27 vfs closing
+[DDoSakura]: 2019/01/21 15:32:38 vfs open /
+[DDoSakura]: 2019/01/21 15:32:38 vfs stat 
+[DDoSakura]: 2019/01/21 15:32:38 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:32:38 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:32:38 vfs closing
+[DDoSakura]: 2019/01/21 15:32:38 vfs closing
+[DDoSakura]: 2019/01/21 15:32:38 vfs open /test/main.js
+[DDoSakura]: 2019/01/21 15:32:38 http: panic serving [::1]:35358: runtime error: invalid memory address or nil pointer dereference
+goroutine 45 [running]:
+net/http.(*conn).serve.func1(0xc00013c500)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0004e40e0, 0xc0001bc600, 0xaf1a00, 0xc000170090, 0xc0001acb00, 0xd, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:557 +0xd6
+net/http.(*fileHandler).ServeHTTP(0xc0001700a0, 0xaf69a0, 0xc0004e40e0, 0xc0001bc600)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0004e40e0, 0xc0001bc500)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b02a0, 0xaf69a0, 0xc0004e40e0, 0xc0001bc500)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0004e40e0, 0xc0001bc500)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0004e40e0, 0xc0001bc500)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc00013c500, 0xaf6fa0, 0xc0001c4980)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:32:38 vfs open /main.js
+[DDoSakura]: 2019/01/21 15:32:38 vfs stat /main.js
+[DDoSakura]: 2019/01/21 15:32:38 vfs closing
+[DDoSakura]: 2019/01/21 15:32:38 vfs open /test/main.js
+[DDoSakura]: 2019/01/21 15:32:38 http: panic serving [::1]:35452: runtime error: invalid memory address or nil pointer dereference
+goroutine 12 [running]:
+net/http.(*conn).serve.func1(0xc0000aedc0)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0004e41c0, 0xc0001bc800, 0xaf1a00, 0xc000170090, 0xc0001acbf0, 0xd, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:557 +0xd6
+net/http.(*fileHandler).ServeHTTP(0xc0001700a0, 0xaf69a0, 0xc0004e41c0, 0xc0001bc800)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0004e41c0, 0xc0001bc700)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b02a0, 0xaf69a0, 0xc0004e41c0, 0xc0001bc700)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0004e41c0, 0xc0001bc700)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0004e41c0, 0xc0001bc700)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc0000aedc0, 0xaf6fa0, 0xc00046c780)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:32:38 vfs open /test/main.js
+[DDoSakura]: 2019/01/21 15:32:38 http: panic serving [::1]:35450: runtime error: invalid memory address or nil pointer dereference
+goroutine 58 [running]:
+net/http.(*conn).serve.func1(0xc000132460)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0001d2700, 0xc0001c2700, 0xaf1a00, 0xc000170090, 0xc000098cb0, 0xd, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:557 +0xd6
+net/http.(*fileHandler).ServeHTTP(0xc0001700a0, 0xaf69a0, 0xc0001d2700, 0xc0001c2700)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0001d2700, 0xc0001c2600)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b02a0, 0xaf69a0, 0xc0001d2700, 0xc0001c2600)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0001d2700, 0xc0001c2600)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0001d2700, 0xc0001c2600)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc000132460, 0xaf6fa0, 0xc0000a0b80)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:32:38 vfs open /test/main.js
+[DDoSakura]: 2019/01/21 15:32:38 vfs open /main.js
+[DDoSakura]: 2019/01/21 15:32:38 http: panic serving [::1]:35456: runtime error: invalid memory address or nil pointer dereference
+goroutine 48 [running]:
+net/http.(*conn).serve.func1(0xc00013c780)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc00045a540, 0xc0001e4800, 0xaf1a00, 0xc000170090, 0xc00046a460, 0xd, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:557 +0xd6
+net/http.(*fileHandler).ServeHTTP(0xc0001700a0, 0xaf69a0, 0xc00045a540, 0xc0001e4800)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc00045a540, 0xc0001e4700)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b02a0, 0xaf69a0, 0xc00045a540, 0xc0001e4700)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc00045a540, 0xc0001e4700)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc00045a540, 0xc0001e4700)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc00013c780, 0xaf6fa0, 0xc0001c4bc0)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:32:38 vfs stat /main.js
+[DDoSakura]: 2019/01/21 15:32:38 vfs closing
+[DDoSakura]: 2019/01/21 15:32:45 vfs open /test/main.js
+[DDoSakura]: 2019/01/21 15:32:45 http: panic serving [::1]:35454: runtime error: invalid memory address or nil pointer dereference
+goroutine 14 [running]:
+net/http.(*conn).serve.func1(0xc0000aef00)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0001d29a0, 0xc0001c3d00, 0xaf1a00, 0xc000170090, 0xc000098f70, 0xd, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:557 +0xd6
+net/http.(*fileHandler).ServeHTTP(0xc0001700a0, 0xaf69a0, 0xc0001d29a0, 0xc0001c3d00)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0001d29a0, 0xc0001bc900)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b02a0, 0xaf69a0, 0xc0001d29a0, 0xc0001bc900)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0001d29a0, 0xc0001bc900)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0001d29a0, 0xc0001bc900)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc0000aef00, 0xaf6fa0, 0xc0000a0d40)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:32:45 vfs open /test/main.js
+[DDoSakura]: 2019/01/21 15:32:45 http: panic serving [::1]:35508: runtime error: invalid memory address or nil pointer dereference
+goroutine 15 [running]:
+net/http.(*conn).serve.func1(0xc0000af040)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0001d2a80, 0xc0001c3e00, 0xaf1a00, 0xc000170090, 0xc000099060, 0xd, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:557 +0xd6
+net/http.(*fileHandler).ServeHTTP(0xc0001700a0, 0xaf69a0, 0xc0001d2a80, 0xc0001c3e00)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0001d2a80, 0xc0001bca00)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b02a0, 0xaf69a0, 0xc0001d2a80, 0xc0001bca00)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0001d2a80, 0xc0001bca00)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0001d2a80, 0xc0001bca00)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc0000af040, 0xaf6fa0, 0xc00046c880)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:34:28 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:34:28 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:34:28 fresh webpage
+[DDoSakura]: 2019/01/21 15:34:28 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:34:28 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:34:28 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:34:28 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:34:28 end 
+[DDoSakura]: 2019/01/21 15:34:42 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:34:42 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:34:42 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:34:42 stop old process 
+[DDoSakura]: 2019/01/21 15:34:42 fresh webpage
+[DDoSakura]: 2019/01/21 15:34:42 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:34:42 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:34:42 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:34:42 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:34:42 end 
+[DDoSakura]: 2019/01/21 15:34:42 vfs open /
+[DDoSakura]: 2019/01/21 15:34:42 vfs stat 
+[DDoSakura]: 2019/01/21 15:34:42 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:34:42 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:34:42 vfs closing
+[DDoSakura]: 2019/01/21 15:34:42 vfs closing
+[DDoSakura]: 2019/01/21 15:35:26 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:35:26 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:35:26 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:35:26 stop old process 
+[DDoSakura]: 2019/01/21 15:35:26 fresh webpage
+[DDoSakura]: 2019/01/21 15:35:26 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:35:27 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:35:27 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:35:27 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:35:27 end 
+[DDoSakura]: 2019/01/21 15:35:27 vfs open /
+[DDoSakura]: 2019/01/21 15:35:27 vfs stat 
+[DDoSakura]: 2019/01/21 15:35:27 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:35:27 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:35:27 vfs closing
+[DDoSakura]: 2019/01/21 15:35:27 vfs closing
+[DDoSakura]: 2019/01/21 15:35:40 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:35:40 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:35:40 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:35:40 stop old process 
+[DDoSakura]: 2019/01/21 15:35:40 fresh webpage
+[DDoSakura]: 2019/01/21 15:35:40 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:35:40 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:35:40 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:35:40 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:35:40 end 
+[DDoSakura]: 2019/01/21 15:35:40 vfs open /
+[DDoSakura]: 2019/01/21 15:35:40 vfs stat 
+[DDoSakura]: 2019/01/21 15:35:40 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:35:40 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:35:40 vfs closing
+[DDoSakura]: 2019/01/21 15:35:40 vfs closing
+[DDoSakura]: 2019/01/21 15:35:51 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:35:51 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:35:51 vfs read
+[DDoSakura]: 2019/01/21 15:35:51 vfs closing
+[DDoSakura]: 2019/01/21 15:36:07 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:07 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:07 vfs closing
+[DDoSakura]: 2019/01/21 15:36:10 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:10 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:10 vfs closing
+[DDoSakura]: 2019/01/21 15:36:22 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:36:22 stop old process 
+[DDoSakura]: 2019/01/21 15:36:22 fresh webpage
+[DDoSakura]: 2019/01/21 15:36:22 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:36:22 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:36:22 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:36:22 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:36:22 end 
+[DDoSakura]: 2019/01/21 15:36:22 vfs open /
+[DDoSakura]: 2019/01/21 15:36:22 vfs stat 
+[DDoSakura]: 2019/01/21 15:36:22 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:36:22 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:36:22 vfs closing
+[DDoSakura]: 2019/01/21 15:36:22 vfs closing
+[DDoSakura]: 2019/01/21 15:36:22 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs read
+[DDoSakura]: 2019/01/21 15:36:22 vfs closing
+[DDoSakura]: 2019/01/21 15:36:22 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs read
+[DDoSakura]: 2019/01/21 15:36:22 vfs closing
+[DDoSakura]: 2019/01/21 15:36:22 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs read
+[DDoSakura]: 2019/01/21 15:36:22 vfs closing
+[DDoSakura]: 2019/01/21 15:36:22 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs read
+[DDoSakura]: 2019/01/21 15:36:22 vfs closing
+[DDoSakura]: 2019/01/21 15:36:22 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs read
+[DDoSakura]: 2019/01/21 15:36:22 vfs closing
+[DDoSakura]: 2019/01/21 15:36:22 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:22 vfs read
+[DDoSakura]: 2019/01/21 15:36:22 vfs closing
+[DDoSakura]: 2019/01/21 15:36:31 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:36:31 stop old process 
+[DDoSakura]: 2019/01/21 15:36:31 fresh webpage
+[DDoSakura]: 2019/01/21 15:36:31 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:36:31 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:36:31 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:36:31 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:36:31 end 
+[DDoSakura]: 2019/01/21 15:36:31 vfs open /
+[DDoSakura]: 2019/01/21 15:36:31 vfs stat 
+[DDoSakura]: 2019/01/21 15:36:31 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:36:31 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:36:31 vfs closing
+[DDoSakura]: 2019/01/21 15:36:31 vfs closing
+[DDoSakura]: 2019/01/21 15:36:31 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs read
+[DDoSakura]: 2019/01/21 15:36:31 vfs closing
+[DDoSakura]: 2019/01/21 15:36:31 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs read
+[DDoSakura]: 2019/01/21 15:36:31 vfs closing
+[DDoSakura]: 2019/01/21 15:36:31 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs read
+[DDoSakura]: 2019/01/21 15:36:31 vfs closing
+[DDoSakura]: 2019/01/21 15:36:31 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs read
+[DDoSakura]: 2019/01/21 15:36:31 vfs closing
+[DDoSakura]: 2019/01/21 15:36:31 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs read
+[DDoSakura]: 2019/01/21 15:36:31 vfs closing
+[DDoSakura]: 2019/01/21 15:36:31 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:31 vfs read
+[DDoSakura]: 2019/01/21 15:36:31 vfs closing
+[DDoSakura]: 2019/01/21 15:36:47 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:36:47 stop old process 
+[DDoSakura]: 2019/01/21 15:36:47 fresh webpage
+[DDoSakura]: 2019/01/21 15:36:47 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:36:47 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:36:47 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:36:47 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:36:47 end 
+[DDoSakura]: 2019/01/21 15:36:47 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 vfs read
+[DDoSakura]: 2019/01/21 15:36:47 vfs closing
+[DDoSakura]: 2019/01/21 15:36:47 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 vfs read
+[DDoSakura]: 2019/01/21 15:36:47 vfs closing
+[DDoSakura]: 2019/01/21 15:36:47 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 vfs read
+[DDoSakura]: 2019/01/21 15:36:47 vfs closing
+[DDoSakura]: 2019/01/21 15:36:47 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 vfs read
+[DDoSakura]: 2019/01/21 15:36:47 vfs closing
+[DDoSakura]: 2019/01/21 15:36:47 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:36:47 vfs read
+[DDoSakura]: 2019/01/21 15:36:47 vfs closing
+[DDoSakura]: 2019/01/21 15:37:34 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:37:34 stop old process 
+[DDoSakura]: 2019/01/21 15:37:34 fresh webpage
+[DDoSakura]: 2019/01/21 15:37:34 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:37:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:37:34 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:37:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:37:34 end 
+[DDoSakura]: 2019/01/21 15:37:34 vfs open /
+[DDoSakura]: 2019/01/21 15:37:34 vfs stat 
+[DDoSakura]: 2019/01/21 15:37:34 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:37:34 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:37:34 vfs closing
+[DDoSakura]: 2019/01/21 15:37:34 vfs closing
+[DDoSakura]: 2019/01/21 15:37:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs read
+[DDoSakura]: 2019/01/21 15:37:34 vfs closing
+[DDoSakura]: 2019/01/21 15:37:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs read
+[DDoSakura]: 2019/01/21 15:37:34 vfs closing
+[DDoSakura]: 2019/01/21 15:37:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs read
+[DDoSakura]: 2019/01/21 15:37:34 vfs closing
+[DDoSakura]: 2019/01/21 15:37:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs read
+[DDoSakura]: 2019/01/21 15:37:34 vfs closing
+[DDoSakura]: 2019/01/21 15:37:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs read
+[DDoSakura]: 2019/01/21 15:37:34 vfs closing
+[DDoSakura]: 2019/01/21 15:37:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:34 vfs read
+[DDoSakura]: 2019/01/21 15:37:34 vfs closing
+[DDoSakura]: 2019/01/21 15:37:37 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:37 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:37 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:37:37 stop old process 
+[DDoSakura]: 2019/01/21 15:37:37 fresh webpage
+[DDoSakura]: 2019/01/21 15:37:37 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:37:37 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:37:37 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:37:37 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:37:37 end 
+[DDoSakura]: 2019/01/21 15:37:37 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:37 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:37 vfs read
+[DDoSakura]: 2019/01/21 15:37:37 vfs closing
+[DDoSakura]: 2019/01/21 15:37:37 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:37 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:37 vfs read
+[DDoSakura]: 2019/01/21 15:37:37 vfs closing
+[DDoSakura]: 2019/01/21 15:37:37 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:37 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:37 vfs read
+[DDoSakura]: 2019/01/21 15:37:37 vfs closing
+[DDoSakura]: 2019/01/21 15:37:55 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:37:55 stop old process 
+[DDoSakura]: 2019/01/21 15:37:55 fresh webpage
+[DDoSakura]: 2019/01/21 15:37:55 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:37:55 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:37:55 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:37:55 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:37:55 end 
+[DDoSakura]: 2019/01/21 15:37:55 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 vfs read
+[DDoSakura]: 2019/01/21 15:37:55 vfs closing
+[DDoSakura]: 2019/01/21 15:37:55 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 vfs read
+[DDoSakura]: 2019/01/21 15:37:55 vfs closing
+[DDoSakura]: 2019/01/21 15:37:55 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 vfs read
+[DDoSakura]: 2019/01/21 15:37:55 vfs closing
+[DDoSakura]: 2019/01/21 15:37:55 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 vfs read
+[DDoSakura]: 2019/01/21 15:37:55 vfs closing
+[DDoSakura]: 2019/01/21 15:37:55 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:37:55 vfs read
+[DDoSakura]: 2019/01/21 15:37:55 vfs closing
+[DDoSakura]: 2019/01/21 15:38:17 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:38:17 stop old process 
+[DDoSakura]: 2019/01/21 15:38:17 fresh webpage
+[DDoSakura]: 2019/01/21 15:38:17 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:38:17 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:38:17 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:38:17 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:38:17 end 
+[DDoSakura]: 2019/01/21 15:38:17 vfs open /
+[DDoSakura]: 2019/01/21 15:38:17 vfs stat 
+[DDoSakura]: 2019/01/21 15:38:17 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:38:17 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:38:17 vfs closing
+[DDoSakura]: 2019/01/21 15:38:17 vfs closing
+[DDoSakura]: 2019/01/21 15:38:17 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs read
+[DDoSakura]: 2019/01/21 15:38:17 vfs closing
+[DDoSakura]: 2019/01/21 15:38:17 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs read
+[DDoSakura]: 2019/01/21 15:38:17 vfs closing
+[DDoSakura]: 2019/01/21 15:38:17 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs read
+[DDoSakura]: 2019/01/21 15:38:17 vfs closing
+[DDoSakura]: 2019/01/21 15:38:17 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs read
+[DDoSakura]: 2019/01/21 15:38:17 vfs closing
+[DDoSakura]: 2019/01/21 15:38:17 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs read
+[DDoSakura]: 2019/01/21 15:38:17 vfs closing
+[DDoSakura]: 2019/01/21 15:38:17 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:38:17 vfs read
+[DDoSakura]: 2019/01/21 15:38:17 vfs closing
+[DDoSakura]: 2019/01/21 15:41:30 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:41:30 stop old process 
+[DDoSakura]: 2019/01/21 15:41:30 fresh webpage
+[DDoSakura]: 2019/01/21 15:41:30 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:41:30 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:41:30 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:41:30 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:41:30 end 
+[DDoSakura]: 2019/01/21 15:41:30 vfs open /
+[DDoSakura]: 2019/01/21 15:41:30 vfs stat 
+[DDoSakura]: 2019/01/21 15:41:30 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:41:30 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:41:30 vfs closing
+[DDoSakura]: 2019/01/21 15:41:30 vfs closing
+[DDoSakura]: 2019/01/21 15:41:30 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs read
+[DDoSakura]: 2019/01/21 15:41:30 vfs closing
+[DDoSakura]: 2019/01/21 15:41:30 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs read
+[DDoSakura]: 2019/01/21 15:41:30 vfs closing
+[DDoSakura]: 2019/01/21 15:41:30 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs read
+[DDoSakura]: 2019/01/21 15:41:30 vfs closing
+[DDoSakura]: 2019/01/21 15:41:30 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs read
+[DDoSakura]: 2019/01/21 15:41:30 vfs closing
+[DDoSakura]: 2019/01/21 15:41:30 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs read
+[DDoSakura]: 2019/01/21 15:41:30 vfs closing
+[DDoSakura]: 2019/01/21 15:41:30 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:30 vfs read
+[DDoSakura]: 2019/01/21 15:41:30 vfs closing
+[DDoSakura]: 2019/01/21 15:41:51 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:51 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:51 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:41:51 stop old process 
+[DDoSakura]: 2019/01/21 15:41:51 fresh webpage
+[DDoSakura]: 2019/01/21 15:41:51 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:41:51 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:41:51 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:41:51 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:41:51 end 
+[DDoSakura]: 2019/01/21 15:41:51 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:51 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:51 vfs read
+[DDoSakura]: 2019/01/21 15:41:51 vfs closing
+[DDoSakura]: 2019/01/21 15:41:51 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:51 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:51 vfs read
+[DDoSakura]: 2019/01/21 15:41:51 vfs closing
+[DDoSakura]: 2019/01/21 15:41:51 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:51 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:41:51 vfs read
+[DDoSakura]: 2019/01/21 15:41:51 vfs closing
+[DDoSakura]: 2019/01/21 15:45:02 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:45:02 stop old process 
+[DDoSakura]: 2019/01/21 15:45:02 fresh webpage
+[DDoSakura]: 2019/01/21 15:45:02 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:45:02 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:45:02 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:45:02 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:45:02 end 
+[DDoSakura]: 2019/01/21 15:45:02 vfs open /
+[DDoSakura]: 2019/01/21 15:45:02 vfs stat 
+[DDoSakura]: 2019/01/21 15:45:02 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:45:02 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:45:02 vfs closing
+[DDoSakura]: 2019/01/21 15:45:02 vfs closing
+[DDoSakura]: 2019/01/21 15:45:02 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs read
+[DDoSakura]: 2019/01/21 15:45:02 vfs closing
+[DDoSakura]: 2019/01/21 15:45:02 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs read
+[DDoSakura]: 2019/01/21 15:45:02 vfs closing
+[DDoSakura]: 2019/01/21 15:45:02 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs read
+[DDoSakura]: 2019/01/21 15:45:02 vfs closing
+[DDoSakura]: 2019/01/21 15:45:02 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs read
+[DDoSakura]: 2019/01/21 15:45:02 vfs closing
+[DDoSakura]: 2019/01/21 15:45:02 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs read
+[DDoSakura]: 2019/01/21 15:45:02 vfs closing
+[DDoSakura]: 2019/01/21 15:45:02 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:45:02 vfs read
+[DDoSakura]: 2019/01/21 15:45:02 vfs closing
+[DDoSakura]: 2019/01/21 15:47:00 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:47:00 stop old process 
+[DDoSakura]: 2019/01/21 15:47:00 fresh webpage
+[DDoSakura]: 2019/01/21 15:47:00 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:47:00 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:47:00 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:47:00 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:47:00 end 
+[DDoSakura]: 2019/01/21 15:47:00 vfs open /
+[DDoSakura]: 2019/01/21 15:47:00 vfs stat 
+[DDoSakura]: 2019/01/21 15:47:00 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:47:00 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:47:00 vfs closing
+[DDoSakura]: 2019/01/21 15:47:00 vfs closing
+[DDoSakura]: 2019/01/21 15:47:00 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs read
+[DDoSakura]: 2019/01/21 15:47:00 vfs closing
+[DDoSakura]: 2019/01/21 15:47:00 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs read
+[DDoSakura]: 2019/01/21 15:47:00 vfs closing
+[DDoSakura]: 2019/01/21 15:47:00 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs read
+[DDoSakura]: 2019/01/21 15:47:00 vfs closing
+[DDoSakura]: 2019/01/21 15:47:00 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs read
+[DDoSakura]: 2019/01/21 15:47:00 vfs closing
+[DDoSakura]: 2019/01/21 15:47:00 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs read
+[DDoSakura]: 2019/01/21 15:47:00 vfs closing
+[DDoSakura]: 2019/01/21 15:47:00 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:47:00 vfs read
+[DDoSakura]: 2019/01/21 15:47:00 vfs closing
+[DDoSakura]: 2019/01/21 15:48:34 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:48:34 stop old process 
+[DDoSakura]: 2019/01/21 15:48:34 fresh webpage
+[DDoSakura]: 2019/01/21 15:48:34 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:48:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:48:34 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:48:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:48:34 end 
+[DDoSakura]: 2019/01/21 15:48:34 vfs open /
+[DDoSakura]: 2019/01/21 15:48:34 vfs stat 
+[DDoSakura]: 2019/01/21 15:48:34 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:48:34 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:48:34 vfs closing
+[DDoSakura]: 2019/01/21 15:48:34 vfs closing
+[DDoSakura]: 2019/01/21 15:48:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 vfs read
+[DDoSakura]: 2019/01/21 15:48:34 vfs closing
+[DDoSakura]: 2019/01/21 15:48:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 vfs read
+[DDoSakura]: 2019/01/21 15:48:34 vfs closing
+[DDoSakura]: 2019/01/21 15:48:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 vfs read
+[DDoSakura]: 2019/01/21 15:48:34 vfs closing
+[DDoSakura]: 2019/01/21 15:48:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 vfs read
+[DDoSakura]: 2019/01/21 15:48:34 vfs closing
+[DDoSakura]: 2019/01/21 15:48:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:34 vfs read
+[DDoSakura]: 2019/01/21 15:48:34 vfs closing
+[DDoSakura]: 2019/01/21 15:48:35 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:35 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:35 vfs read
+[DDoSakura]: 2019/01/21 15:48:35 vfs closing
+[DDoSakura]: 2019/01/21 15:48:38 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:38 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:38 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:48:38 stop old process 
+[DDoSakura]: 2019/01/21 15:48:38 fresh webpage
+[DDoSakura]: 2019/01/21 15:48:38 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:48:38 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:48:38 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:48:38 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:48:38 end 
+[DDoSakura]: 2019/01/21 15:48:38 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:38 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:38 vfs read
+[DDoSakura]: 2019/01/21 15:48:38 vfs closing
+[DDoSakura]: 2019/01/21 15:48:43 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:43 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:43 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:48:43 stop old process 
+[DDoSakura]: 2019/01/21 15:48:43 fresh webpage
+[DDoSakura]: 2019/01/21 15:48:43 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:48:43 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:48:43 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:48:43 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:48:43 end 
+[DDoSakura]: 2019/01/21 15:48:43 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:43 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:48:43 vfs read
+[DDoSakura]: 2019/01/21 15:48:43 vfs closing
+[DDoSakura]: 2019/01/21 15:50:21 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:50:21 stop old process 
+[DDoSakura]: 2019/01/21 15:50:21 fresh webpage
+[DDoSakura]: 2019/01/21 15:50:21 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:50:21 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:50:21 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:50:21 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:50:21 end 
+[DDoSakura]: 2019/01/21 15:50:21 vfs open /
+[DDoSakura]: 2019/01/21 15:50:21 vfs stat 
+[DDoSakura]: 2019/01/21 15:50:21 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:50:21 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:50:21 vfs closing
+[DDoSakura]: 2019/01/21 15:50:21 vfs closing
+[DDoSakura]: 2019/01/21 15:50:21 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs read
+[DDoSakura]: 2019/01/21 15:50:21 vfs closing
+[DDoSakura]: 2019/01/21 15:50:21 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs read
+[DDoSakura]: 2019/01/21 15:50:21 vfs closing
+[DDoSakura]: 2019/01/21 15:50:21 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs read
+[DDoSakura]: 2019/01/21 15:50:21 vfs closing
+[DDoSakura]: 2019/01/21 15:50:21 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs read
+[DDoSakura]: 2019/01/21 15:50:21 vfs closing
+[DDoSakura]: 2019/01/21 15:50:21 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs read
+[DDoSakura]: 2019/01/21 15:50:21 vfs closing
+[DDoSakura]: 2019/01/21 15:50:21 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:21 vfs read
+[DDoSakura]: 2019/01/21 15:50:21 vfs closing
+[DDoSakura]: 2019/01/21 15:50:34 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:34 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:34 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:50:34 stop old process 
+[DDoSakura]: 2019/01/21 15:50:34 fresh webpage
+[DDoSakura]: 2019/01/21 15:50:34 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:50:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:50:34 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:50:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:50:34 end 
+[DDoSakura]: 2019/01/21 15:50:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:34 vfs read
+[DDoSakura]: 2019/01/21 15:50:34 vfs closing
+[DDoSakura]: 2019/01/21 15:50:45 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:45 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:50:45 vfs closing
+[DDoSakura]: 2019/01/21 15:51:14 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:14 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:14 vfs closing
+[DDoSakura]: 2019/01/21 15:51:24 vfs open /
+[DDoSakura]: 2019/01/21 15:51:24 vfs stat 
+[DDoSakura]: 2019/01/21 15:51:24 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:51:24 vfs closing
+[DDoSakura]: 2019/01/21 15:51:24 http: panic serving [::1]:41164: runtime error: invalid memory address or nil pointer dereference
+goroutine 423 [running]:
+net/http.(*conn).serve.func1(0xc00013c000)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0001e42a0, 0xc0005aa400, 0xaf1a00, 0xc0001700d0, 0xa5a6a6, 0x1, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:597 +0x635
+net/http.(*fileHandler).ServeHTTP(0xc0001700e0, 0xaf69a0, 0xc0001e42a0, 0xc0005aa400)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0001e42a0, 0xc0005aa200)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b0300, 0xaf69a0, 0xc0001e42a0, 0xc0005aa200)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0001e42a0, 0xc0005aa200)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0001e42a0, 0xc0005aa200)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc00013c000, 0xaf6fa0, 0xc0001c40c0)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:51:24 vfs open /
+[DDoSakura]: 2019/01/21 15:51:24 vfs stat 
+[DDoSakura]: 2019/01/21 15:51:24 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:51:24 vfs closing
+[DDoSakura]: 2019/01/21 15:51:24 http: panic serving [::1]:41166: runtime error: invalid memory address or nil pointer dereference
+goroutine 495 [running]:
+net/http.(*conn).serve.func1(0xc0001320a0)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0001d29a0, 0xc00054cc00, 0xaf1a00, 0xc0001700d0, 0xa5a6a6, 0x1, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:597 +0x635
+net/http.(*fileHandler).ServeHTTP(0xc0001700e0, 0xaf69a0, 0xc0001d29a0, 0xc00054cc00)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0001d29a0, 0xc00054d900)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b0300, 0xaf69a0, 0xc0001d29a0, 0xc00054d900)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0001d29a0, 0xc00054d900)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0001d29a0, 0xc00054d900)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc0001320a0, 0xaf6fa0, 0xc00046c4c0)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:51:24 vfs open /
+[DDoSakura]: 2019/01/21 15:51:24 vfs stat 
+[DDoSakura]: 2019/01/21 15:51:24 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:51:24 vfs closing
+[DDoSakura]: 2019/01/21 15:51:24 http: panic serving [::1]:44348: runtime error: invalid memory address or nil pointer dereference
+goroutine 684 [running]:
+net/http.(*conn).serve.func1(0xc00014ed20)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0001d2a80, 0xc00054ce00, 0xaf1a00, 0xc0001700d0, 0xa5a6a6, 0x1, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:597 +0x635
+net/http.(*fileHandler).ServeHTTP(0xc0001700e0, 0xaf69a0, 0xc0001d2a80, 0xc00054ce00)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0001d2a80, 0xc00054cd00)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b0300, 0xaf69a0, 0xc0001d2a80, 0xc00054cd00)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0001d2a80, 0xc00054cd00)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0001d2a80, 0xc00054cd00)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc00014ed20, 0xaf6fa0, 0xc00061d500)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:51:24 vfs open /
+[DDoSakura]: 2019/01/21 15:51:24 vfs stat 
+[DDoSakura]: 2019/01/21 15:51:24 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:51:24 vfs closing
+[DDoSakura]: 2019/01/21 15:51:24 http: panic serving [::1]:44358: runtime error: invalid memory address or nil pointer dereference
+goroutine 648 [running]:
+net/http.(*conn).serve.func1(0xc00013c3c0)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0001e4380, 0xc0005aa600, 0xaf1a00, 0xc0001700d0, 0xa5a6a6, 0x1, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:597 +0x635
+net/http.(*fileHandler).ServeHTTP(0xc0001700e0, 0xaf69a0, 0xc0001e4380, 0xc0005aa600)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0001e4380, 0xc0005aa500)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b0300, 0xaf69a0, 0xc0001e4380, 0xc0005aa500)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0001e4380, 0xc0005aa500)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0001e4380, 0xc0005aa500)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc00013c3c0, 0xaf6fa0, 0xc000066380)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:51:49 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:49 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:49 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:51:49 stop old process 
+[DDoSakura]: 2019/01/21 15:51:49 fresh webpage
+[DDoSakura]: 2019/01/21 15:51:49 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:51:49 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:51:49 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:51:49 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:51:49 end 
+[DDoSakura]: 2019/01/21 15:51:49 vfs open /
+[DDoSakura]: 2019/01/21 15:51:49 vfs stat 
+[DDoSakura]: 2019/01/21 15:51:49 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:51:49 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:51:49 vfs closing
+[DDoSakura]: 2019/01/21 15:51:49 vfs closing
+[DDoSakura]: 2019/01/21 15:51:49 vfs open /
+[DDoSakura]: 2019/01/21 15:51:49 vfs stat 
+[DDoSakura]: 2019/01/21 15:51:49 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:51:49 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:51:49 vfs closing
+[DDoSakura]: 2019/01/21 15:51:49 vfs closing
+[DDoSakura]: 2019/01/21 15:51:50 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs read
+[DDoSakura]: 2019/01/21 15:51:50 vfs closing
+[DDoSakura]: 2019/01/21 15:51:50 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs read
+[DDoSakura]: 2019/01/21 15:51:50 vfs closing
+[DDoSakura]: 2019/01/21 15:51:50 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs read
+[DDoSakura]: 2019/01/21 15:51:50 vfs closing
+[DDoSakura]: 2019/01/21 15:51:50 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs read
+[DDoSakura]: 2019/01/21 15:51:50 vfs closing
+[DDoSakura]: 2019/01/21 15:51:50 vfs read
+[DDoSakura]: 2019/01/21 15:51:50 vfs closing
+[DDoSakura]: 2019/01/21 15:51:50 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:50 vfs read
+[DDoSakura]: 2019/01/21 15:51:50 vfs closing
+[DDoSakura]: 2019/01/21 15:51:57 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:57 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:57 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:51:57 stop old process 
+[DDoSakura]: 2019/01/21 15:51:57 fresh webpage
+[DDoSakura]: 2019/01/21 15:51:57 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:51:57 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:51:57 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:51:57 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:51:57 end 
+[DDoSakura]: 2019/01/21 15:51:57 vfs open /
+[DDoSakura]: 2019/01/21 15:51:57 vfs stat 
+[DDoSakura]: 2019/01/21 15:51:57 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:51:57 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:51:57 vfs closing
+[DDoSakura]: 2019/01/21 15:51:57 vfs closing
+[DDoSakura]: 2019/01/21 15:51:57 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:57 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:51:57 vfs read
+[DDoSakura]: 2019/01/21 15:51:57 vfs closing
+[DDoSakura]: 2019/01/21 15:52:22 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:52:22 stop old process 
+[DDoSakura]: 2019/01/21 15:52:22 fresh webpage
+[DDoSakura]: 2019/01/21 15:52:22 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:52:22 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:52:22 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:52:22 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:52:22 end 
+[DDoSakura]: 2019/01/21 15:52:22 vfs open /
+[DDoSakura]: 2019/01/21 15:52:22 vfs stat 
+[DDoSakura]: 2019/01/21 15:52:22 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:52:22 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:52:22 vfs closing
+[DDoSakura]: 2019/01/21 15:52:22 vfs closing
+[DDoSakura]: 2019/01/21 15:52:22 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 vfs read
+[DDoSakura]: 2019/01/21 15:52:22 vfs closing
+[DDoSakura]: 2019/01/21 15:52:22 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 vfs read
+[DDoSakura]: 2019/01/21 15:52:22 vfs closing
+[DDoSakura]: 2019/01/21 15:52:22 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 vfs read
+[DDoSakura]: 2019/01/21 15:52:22 vfs closing
+[DDoSakura]: 2019/01/21 15:52:22 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 vfs read
+[DDoSakura]: 2019/01/21 15:52:22 vfs closing
+[DDoSakura]: 2019/01/21 15:52:22 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:22 vfs read
+[DDoSakura]: 2019/01/21 15:52:22 vfs closing
+[DDoSakura]: 2019/01/21 15:52:26 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:26 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:26 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:52:26 stop old process 
+[DDoSakura]: 2019/01/21 15:52:26 fresh webpage
+[DDoSakura]: 2019/01/21 15:52:26 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:52:26 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:52:26 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:52:26 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:52:26 end 
+[DDoSakura]: 2019/01/21 15:52:26 vfs open /
+[DDoSakura]: 2019/01/21 15:52:26 vfs stat 
+[DDoSakura]: 2019/01/21 15:52:26 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:52:26 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:52:26 vfs closing
+[DDoSakura]: 2019/01/21 15:52:26 vfs closing
+[DDoSakura]: 2019/01/21 15:52:26 vfs open /
+[DDoSakura]: 2019/01/21 15:52:26 vfs stat 
+[DDoSakura]: 2019/01/21 15:52:26 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:52:26 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:52:26 vfs closing
+[DDoSakura]: 2019/01/21 15:52:26 vfs closing
+[DDoSakura]: 2019/01/21 15:52:26 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:26 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:26 vfs read
+[DDoSakura]: 2019/01/21 15:52:26 vfs closing
+[DDoSakura]: 2019/01/21 15:52:26 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:26 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:52:26 vfs read
+[DDoSakura]: 2019/01/21 15:52:26 vfs closing
+[DDoSakura]: 2019/01/21 15:52:30 vfs open /
+[DDoSakura]: 2019/01/21 15:52:30 vfs stat 
+[DDoSakura]: 2019/01/21 15:52:30 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:52:30 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:52:30 vfs closing
+[DDoSakura]: 2019/01/21 15:52:30 vfs closing
+[DDoSakura]: 2019/01/21 15:52:30 vfs open /test/main.js
+[DDoSakura]: 2019/01/21 15:52:30 http: panic serving [::1]:44566: runtime error: invalid memory address or nil pointer dereference
+goroutine 654 [running]:
+net/http.(*conn).serve.func1(0xc00013c780)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0001e41c0, 0xc00054c200, 0xaf1a00, 0xc000170090, 0xc000148340, 0xd, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:557 +0xd6
+net/http.(*fileHandler).ServeHTTP(0xc0001700a0, 0xaf69a0, 0xc0001e41c0, 0xc00054c200)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0001e41c0, 0xc00054c100)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b02a0, 0xaf69a0, 0xc0001e41c0, 0xc00054c100)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0001e41c0, 0xc00054c100)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0001e41c0, 0xc00054c100)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc00013c780, 0xaf6fa0, 0xc000066780)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:52:30 vfs open /test/main.js
+[DDoSakura]: 2019/01/21 15:52:30 http: panic serving [::1]:44564: runtime error: invalid memory address or nil pointer dereference
+goroutine 653 [running]:
+net/http.(*conn).serve.func1(0xc00013c640)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0005ce700, 0xc0001bc000, 0xaf1a00, 0xc000170090, 0xc000023840, 0xd, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:557 +0xd6
+net/http.(*fileHandler).ServeHTTP(0xc0001700a0, 0xaf69a0, 0xc0005ce700, 0xc0001bc000)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0005ce700, 0xc0005aa500)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b02a0, 0xaf69a0, 0xc0005ce700, 0xc0005aa500)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0005ce700, 0xc0005aa500)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0005ce700, 0xc0005aa500)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc00013c640, 0xaf6fa0, 0xc000066700)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:52:30 vfs open /test/main.js
+[DDoSakura]: 2019/01/21 15:52:30 http: panic serving [::1]:44562: runtime error: invalid memory address or nil pointer dereference
+goroutine 691 [running]:
+net/http.(*conn).serve.func1(0xc000132aa0)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0001e42a0, 0xc00054c300, 0xaf1a00, 0xc000170090, 0xc000148540, 0xd, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:557 +0xd6
+net/http.(*fileHandler).ServeHTTP(0xc0001700a0, 0xaf69a0, 0xc0001e42a0, 0xc00054c300)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0001e42a0, 0xc0005aa100)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b02a0, 0xaf69a0, 0xc0001e42a0, 0xc0005aa100)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0001e42a0, 0xc0005aa100)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0001e42a0, 0xc0005aa100)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc000132aa0, 0xaf6fa0, 0xc0001c4d00)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:52:30 vfs open /test/main.js
+[DDoSakura]: 2019/01/21 15:52:30 http: panic serving [::1]:44924: runtime error: invalid memory address or nil pointer dereference
+goroutine 789 [running]:
+net/http.(*conn).serve.func1(0xc0000aedc0)
+	/usr/lib/go/src/net/http/server.go:1746 +0xd0
+panic(0x9d5080, 0xe610d0)
+	/usr/lib/go/src/runtime/panic.go:513 +0x1b9
+net/http.serveFile(0xaf69a0, 0xc0001e4380, 0xc00054c400, 0xaf1a00, 0xc000170090, 0xc000148670, 0xd, 0xa35201)
+	/usr/lib/go/src/net/http/fs.go:557 +0xd6
+net/http.(*fileHandler).ServeHTTP(0xc0001700a0, 0xaf69a0, 0xc0001e4380, 0xc00054c400)
+	/usr/lib/go/src/net/http/fs.go:723 +0xa1
+net/http.StripPrefix.func1(0xaf69a0, 0xc0001e4380, 0xc0001bc100)
+	/usr/lib/go/src/net/http/server.go:2003 +0x18b
+net/http.HandlerFunc.ServeHTTP(0xc0004b02a0, 0xaf69a0, 0xc0001e4380, 0xc0001bc100)
+	/usr/lib/go/src/net/http/server.go:1964 +0x44
+net/http.(*ServeMux).ServeHTTP(0xea4680, 0xaf69a0, 0xc0001e4380, 0xc0001bc100)
+	/usr/lib/go/src/net/http/server.go:2361 +0x127
+net/http.serverHandler.ServeHTTP(0xc0004af2b0, 0xaf69a0, 0xc0001e4380, 0xc0001bc100)
+	/usr/lib/go/src/net/http/server.go:2741 +0xab
+net/http.(*conn).serve(0xc0000aedc0, 0xaf6fa0, 0xc00046c880)
+	/usr/lib/go/src/net/http/server.go:1847 +0x646
+created by net/http.(*Server).Serve
+	/usr/lib/go/src/net/http/server.go:2851 +0x2f5
+[DDoSakura]: 2019/01/21 15:52:30 vfs open /main.js
+[DDoSakura]: 2019/01/21 15:52:30 vfs stat /main.js
+[DDoSakura]: 2019/01/21 15:52:30 vfs closing
+[DDoSakura]: 2019/01/21 15:53:50 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:50 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:50 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:53:50 stop old process 
+[DDoSakura]: 2019/01/21 15:53:50 fresh webpage
+[DDoSakura]: 2019/01/21 15:53:50 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:53:50 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:53:50 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:53:50 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:53:50 end 
+[DDoSakura]: 2019/01/21 15:53:50 vfs open /
+[DDoSakura]: 2019/01/21 15:53:50 vfs stat 
+[DDoSakura]: 2019/01/21 15:53:50 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:53:50 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:53:50 vfs closing
+[DDoSakura]: 2019/01/21 15:53:50 vfs closing
+[DDoSakura]: 2019/01/21 15:53:50 vfs open /
+[DDoSakura]: 2019/01/21 15:53:50 vfs stat 
+[DDoSakura]: 2019/01/21 15:53:50 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:53:50 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:53:50 vfs closing
+[DDoSakura]: 2019/01/21 15:53:50 vfs closing
+[DDoSakura]: 2019/01/21 15:53:51 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs read
+[DDoSakura]: 2019/01/21 15:53:51 vfs closing
+[DDoSakura]: 2019/01/21 15:53:51 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs read
+[DDoSakura]: 2019/01/21 15:53:51 vfs closing
+[DDoSakura]: 2019/01/21 15:53:51 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs read
+[DDoSakura]: 2019/01/21 15:53:51 vfs closing
+[DDoSakura]: 2019/01/21 15:53:51 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs read
+[DDoSakura]: 2019/01/21 15:53:51 vfs closing
+[DDoSakura]: 2019/01/21 15:53:51 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs read
+[DDoSakura]: 2019/01/21 15:53:51 vfs closing
+[DDoSakura]: 2019/01/21 15:53:51 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:53:51 vfs read
+[DDoSakura]: 2019/01/21 15:53:51 vfs closing
+[DDoSakura]: 2019/01/21 15:54:19 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:19 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:19 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:54:19 stop old process 
+[DDoSakura]: 2019/01/21 15:54:19 fresh webpage
+[DDoSakura]: 2019/01/21 15:54:19 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:54:19 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:54:19 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:54:19 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:54:19 end 
+[DDoSakura]: 2019/01/21 15:54:19 vfs open /
+[DDoSakura]: 2019/01/21 15:54:19 vfs stat 
+[DDoSakura]: 2019/01/21 15:54:19 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:54:19 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:54:19 vfs closing
+[DDoSakura]: 2019/01/21 15:54:19 vfs closing
+[DDoSakura]: 2019/01/21 15:54:19 vfs open /
+[DDoSakura]: 2019/01/21 15:54:19 vfs stat 
+[DDoSakura]: 2019/01/21 15:54:19 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:54:19 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:54:19 vfs closing
+[DDoSakura]: 2019/01/21 15:54:19 vfs closing
+[DDoSakura]: 2019/01/21 15:54:19 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:19 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:19 vfs read
+[DDoSakura]: 2019/01/21 15:54:19 vfs closing
+[DDoSakura]: 2019/01/21 15:54:19 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:19 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:19 vfs read
+[DDoSakura]: 2019/01/21 15:54:19 vfs closing
+[DDoSakura]: 2019/01/21 15:54:20 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:20 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:20 vfs read
+[DDoSakura]: 2019/01/21 15:54:20 vfs closing
+[DDoSakura]: 2019/01/21 15:54:20 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:20 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:20 vfs read
+[DDoSakura]: 2019/01/21 15:54:20 vfs closing
+[DDoSakura]: 2019/01/21 15:54:20 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:20 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:20 vfs read
+[DDoSakura]: 2019/01/21 15:54:20 vfs closing
+[DDoSakura]: 2019/01/21 15:54:20 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:20 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:20 vfs read
+[DDoSakura]: 2019/01/21 15:54:20 vfs closing
+[DDoSakura]: 2019/01/21 15:54:29 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:29 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:29 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:54:29 stop old process 
+[DDoSakura]: 2019/01/21 15:54:29 fresh webpage
+[DDoSakura]: 2019/01/21 15:54:29 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:54:29 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:54:29 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:54:29 vfs open /
+[DDoSakura]: 2019/01/21 15:54:29 vfs stat 
+[DDoSakura]: 2019/01/21 15:54:29 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:54:29 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:54:29 vfs closing
+[DDoSakura]: 2019/01/21 15:54:29 vfs closing
+[DDoSakura]: 2019/01/21 15:54:29 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:54:29 end 
+[DDoSakura]: 2019/01/21 15:54:29 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:29 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:29 vfs read
+[DDoSakura]: 2019/01/21 15:54:29 vfs closing
+[DDoSakura]: 2019/01/21 15:54:41 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:41 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:41 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:54:41 stop old process 
+[DDoSakura]: 2019/01/21 15:54:41 fresh webpage
+[DDoSakura]: 2019/01/21 15:54:41 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:54:41 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:54:41 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:54:41 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:54:41 end 
+[DDoSakura]: 2019/01/21 15:54:41 vfs open /
+[DDoSakura]: 2019/01/21 15:54:41 vfs stat 
+[DDoSakura]: 2019/01/21 15:54:41 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:54:41 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:54:41 vfs closing
+[DDoSakura]: 2019/01/21 15:54:41 vfs closing
+[DDoSakura]: 2019/01/21 15:54:41 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:41 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:41 vfs read
+[DDoSakura]: 2019/01/21 15:54:41 vfs closing
+[DDoSakura]: 2019/01/21 15:54:41 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:41 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:54:41 vfs read
+[DDoSakura]: 2019/01/21 15:54:41 vfs closing
+[DDoSakura]: 2019/01/21 15:55:04 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:55:04 stop old process 
+[DDoSakura]: 2019/01/21 15:55:04 fresh webpage
+[DDoSakura]: 2019/01/21 15:55:04 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:55:04 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:55:04 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:55:04 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:55:04 end 
+[DDoSakura]: 2019/01/21 15:55:04 vfs open /
+[DDoSakura]: 2019/01/21 15:55:04 vfs stat 
+[DDoSakura]: 2019/01/21 15:55:04 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:55:04 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:55:04 vfs closing
+[DDoSakura]: 2019/01/21 15:55:04 vfs closing
+[DDoSakura]: 2019/01/21 15:55:04 vfs open /
+[DDoSakura]: 2019/01/21 15:55:04 vfs stat 
+[DDoSakura]: 2019/01/21 15:55:04 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:55:04 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:55:04 vfs closing
+[DDoSakura]: 2019/01/21 15:55:04 vfs closing
+[DDoSakura]: 2019/01/21 15:55:04 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs read
+[DDoSakura]: 2019/01/21 15:55:04 vfs closing
+[DDoSakura]: 2019/01/21 15:55:04 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs read
+[DDoSakura]: 2019/01/21 15:55:04 vfs closing
+[DDoSakura]: 2019/01/21 15:55:04 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs read
+[DDoSakura]: 2019/01/21 15:55:04 vfs closing
+[DDoSakura]: 2019/01/21 15:55:04 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs read
+[DDoSakura]: 2019/01/21 15:55:04 vfs closing
+[DDoSakura]: 2019/01/21 15:55:04 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs read
+[DDoSakura]: 2019/01/21 15:55:04 vfs closing
+[DDoSakura]: 2019/01/21 15:55:04 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:04 vfs read
+[DDoSakura]: 2019/01/21 15:55:04 vfs closing
+[DDoSakura]: 2019/01/21 15:55:48 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:55:48 stop old process 
+[DDoSakura]: 2019/01/21 15:55:48 fresh webpage
+[DDoSakura]: 2019/01/21 15:55:48 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:55:48 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:55:48 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:55:48 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:55:48 end 
+[DDoSakura]: 2019/01/21 15:55:48 vfs open /
+[DDoSakura]: 2019/01/21 15:55:48 vfs stat 
+[DDoSakura]: 2019/01/21 15:55:48 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:55:48 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:55:48 vfs closing
+[DDoSakura]: 2019/01/21 15:55:48 vfs closing
+[DDoSakura]: 2019/01/21 15:55:48 vfs open /
+[DDoSakura]: 2019/01/21 15:55:48 vfs stat 
+[DDoSakura]: 2019/01/21 15:55:48 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:55:48 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:55:48 vfs closing
+[DDoSakura]: 2019/01/21 15:55:48 vfs closing
+[DDoSakura]: 2019/01/21 15:55:48 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs read
+[DDoSakura]: 2019/01/21 15:55:48 vfs closing
+[DDoSakura]: 2019/01/21 15:55:48 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs read
+[DDoSakura]: 2019/01/21 15:55:48 vfs closing
+[DDoSakura]: 2019/01/21 15:55:48 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs read
+[DDoSakura]: 2019/01/21 15:55:48 vfs closing
+[DDoSakura]: 2019/01/21 15:55:48 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs read
+[DDoSakura]: 2019/01/21 15:55:48 vfs closing
+[DDoSakura]: 2019/01/21 15:55:48 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs read
+[DDoSakura]: 2019/01/21 15:55:48 vfs closing
+[DDoSakura]: 2019/01/21 15:55:48 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:55:48 vfs read
+[DDoSakura]: 2019/01/21 15:55:48 vfs closing
+[DDoSakura]: 2019/01/21 15:56:06 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:06 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:06 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:56:06 stop old process 
+[DDoSakura]: 2019/01/21 15:56:06 fresh webpage
+[DDoSakura]: 2019/01/21 15:56:06 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:56:06 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:56:06 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:56:06 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:56:06 end 
+[DDoSakura]: 2019/01/21 15:56:06 vfs open /
+[DDoSakura]: 2019/01/21 15:56:06 vfs stat 
+[DDoSakura]: 2019/01/21 15:56:06 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:56:06 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:56:06 vfs closing
+[DDoSakura]: 2019/01/21 15:56:06 vfs closing
+[DDoSakura]: 2019/01/21 15:56:06 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:06 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:06 vfs read
+[DDoSakura]: 2019/01/21 15:56:06 vfs closing
+[DDoSakura]: 2019/01/21 15:56:06 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:06 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:06 vfs read
+[DDoSakura]: 2019/01/21 15:56:06 vfs closing
+[DDoSakura]: 2019/01/21 15:56:25 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 err:  os: process already finished
+[DDoSakura]: 2019/01/21 15:56:25 stop old process 
+[DDoSakura]: 2019/01/21 15:56:25 fresh webpage
+[DDoSakura]: 2019/01/21 15:56:25 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 15:56:25 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:56:25 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 15:56:25 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 15:56:25 end 
+[DDoSakura]: 2019/01/21 15:56:25 vfs open /
+[DDoSakura]: 2019/01/21 15:56:25 vfs stat 
+[DDoSakura]: 2019/01/21 15:56:25 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:56:25 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:56:25 vfs closing
+[DDoSakura]: 2019/01/21 15:56:25 vfs closing
+[DDoSakura]: 2019/01/21 15:56:25 vfs open /
+[DDoSakura]: 2019/01/21 15:56:25 vfs stat 
+[DDoSakura]: 2019/01/21 15:56:25 vfs open /index.html
+[DDoSakura]: 2019/01/21 15:56:25 vfs stat /index.html
+[DDoSakura]: 2019/01/21 15:56:25 vfs closing
+[DDoSakura]: 2019/01/21 15:56:25 vfs closing
+[DDoSakura]: 2019/01/21 15:56:25 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs read
+[DDoSakura]: 2019/01/21 15:56:25 vfs closing
+[DDoSakura]: 2019/01/21 15:56:25 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs read
+[DDoSakura]: 2019/01/21 15:56:25 vfs closing
+[DDoSakura]: 2019/01/21 15:56:25 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs read
+[DDoSakura]: 2019/01/21 15:56:25 vfs closing
+[DDoSakura]: 2019/01/21 15:56:25 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs read
+[DDoSakura]: 2019/01/21 15:56:25 vfs closing
+[DDoSakura]: 2019/01/21 15:56:25 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs read
+[DDoSakura]: 2019/01/21 15:56:25 vfs closing
+[DDoSakura]: 2019/01/21 15:56:25 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 15:56:25 vfs read
+[DDoSakura]: 2019/01/21 15:56:25 vfs closing
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        [DDoSakura]: 2019/01/21 18:49:45 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 18:49:45 loading directory...
+[DDoSakura]: 2019/01/21 18:49:45 :3000
+[DDoSakura]: 2019/01/21 18:49:45 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 18:49:45 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 18:49:45 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 18:49:45 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 18:49:45 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 18:49:45 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 18:49:45 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 18:49:45 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 18:49:45 ready!
+[DDoSakura]: 2019/01/21 18:49:46 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:49:46 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:49:46 vfs closing
+[DDoSakura]: 2019/01/21 18:50:18 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:50:18 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:50:18 fresh webpage
+[DDoSakura]: 2019/01/21 18:50:18 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:50:18 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:50:18 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:50:18 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:50:18 end 
+[DDoSakura]: 2019/01/21 18:50:50 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:50:50 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:50:50 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:50:50 stop old process 
+[DDoSakura]: 2019/01/21 18:50:50 fresh webpage
+[DDoSakura]: 2019/01/21 18:50:50 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:50:50 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:50:50 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:50:50 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:50:50 end 
+[DDoSakura]: 2019/01/21 18:51:16 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:51:16 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:51:16 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:51:16 stop old process 
+[DDoSakura]: 2019/01/21 18:51:16 fresh webpage
+[DDoSakura]: 2019/01/21 18:51:16 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:51:16 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:51:16 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:51:16 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:51:16 end 
+[DDoSakura]: 2019/01/21 18:51:34 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:51:34 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:51:34 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:51:34 stop old process 
+[DDoSakura]: 2019/01/21 18:51:34 fresh webpage
+[DDoSakura]: 2019/01/21 18:51:34 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:51:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:51:34 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:51:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:51:34 end 
+[DDoSakura]: 2019/01/21 18:51:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:51:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:51:34 vfs read
+[DDoSakura]: 2019/01/21 18:51:34 vfs closing
+[DDoSakura]: 2019/01/21 18:52:07 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:52:07 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:52:07 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:52:07 stop old process 
+[DDoSakura]: 2019/01/21 18:52:07 fresh webpage
+[DDoSakura]: 2019/01/21 18:52:07 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:52:07 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:52:07 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:52:07 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:52:07 end 
+[DDoSakura]: 2019/01/21 18:52:07 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:52:07 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:52:07 vfs read
+[DDoSakura]: 2019/01/21 18:52:07 vfs closing
+[DDoSakura]: 2019/01/21 18:52:27 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:52:27 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:52:27 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:52:27 stop old process 
+[DDoSakura]: 2019/01/21 18:52:27 fresh webpage
+[DDoSakura]: 2019/01/21 18:52:27 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:52:27 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:52:27 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:52:27 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:52:27 end 
+[DDoSakura]: 2019/01/21 18:52:27 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:52:27 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:52:27 vfs read
+[DDoSakura]: 2019/01/21 18:52:27 vfs closing
+[DDoSakura]: 2019/01/21 18:54:34 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:54:34 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:54:34 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:54:34 stop old process 
+[DDoSakura]: 2019/01/21 18:54:34 fresh webpage
+[DDoSakura]: 2019/01/21 18:54:34 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:54:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:54:34 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:54:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:54:34 end 
+[DDoSakura]: 2019/01/21 18:54:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:54:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:54:34 vfs read
+[DDoSakura]: 2019/01/21 18:54:34 vfs closing
+[DDoSakura]: 2019/01/21 18:55:38 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:55:38 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:55:38 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:55:38 stop old process 
+[DDoSakura]: 2019/01/21 18:55:38 fresh webpage
+[DDoSakura]: 2019/01/21 18:55:38 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:55:38 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:55:38 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:55:38 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:55:38 end 
+[DDoSakura]: 2019/01/21 18:55:39 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:55:39 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:55:39 vfs read
+[DDoSakura]: 2019/01/21 18:55:39 vfs closing
+[DDoSakura]: 2019/01/21 18:55:56 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:55:56 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:55:56 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:55:56 stop old process 
+[DDoSakura]: 2019/01/21 18:55:56 fresh webpage
+[DDoSakura]: 2019/01/21 18:55:56 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:55:56 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:55:56 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:55:56 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:55:56 end 
+[DDoSakura]: 2019/01/21 18:55:56 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:55:56 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:55:56 vfs read
+[DDoSakura]: 2019/01/21 18:55:56 vfs closing
+[DDoSakura]: 2019/01/21 18:56:04 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:04 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:04 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:04 stop old process 
+[DDoSakura]: 2019/01/21 18:56:04 fresh webpage
+[DDoSakura]: 2019/01/21 18:56:04 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:56:04 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:04 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:56:04 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:04 end 
+[DDoSakura]: 2019/01/21 18:56:04 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:04 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:04 vfs read
+[DDoSakura]: 2019/01/21 18:56:04 vfs closing
+[DDoSakura]: 2019/01/21 18:56:08 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:08 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:08 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:08 stop old process 
+[DDoSakura]: 2019/01/21 18:56:08 fresh webpage
+[DDoSakura]: 2019/01/21 18:56:08 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:56:08 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:08 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:56:08 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:08 end 
+[DDoSakura]: 2019/01/21 18:56:08 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:08 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:08 vfs read
+[DDoSakura]: 2019/01/21 18:56:08 vfs closing
+[DDoSakura]: 2019/01/21 18:56:15 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:15 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:15 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:15 stop old process 
+[DDoSakura]: 2019/01/21 18:56:15 fresh webpage
+[DDoSakura]: 2019/01/21 18:56:15 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:56:15 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:15 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:56:15 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:15 end 
+[DDoSakura]: 2019/01/21 18:56:15 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:15 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:15 vfs read
+[DDoSakura]: 2019/01/21 18:56:15 vfs closing
+[DDoSakura]: 2019/01/21 18:56:23 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:23 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:23 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:23 stop old process 
+[DDoSakura]: 2019/01/21 18:56:23 fresh webpage
+[DDoSakura]: 2019/01/21 18:56:23 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:56:23 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:23 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:56:23 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:56:23 end 
+[DDoSakura]: 2019/01/21 18:56:23 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:23 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:23 vfs read
+[DDoSakura]: 2019/01/21 18:56:23 vfs closing
+[DDoSakura]: 2019/01/21 18:56:34 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:34 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:56:34 vfs closing
+[DDoSakura]: 2019/01/21 18:57:44 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:57:44 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:57:44 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:57:44 stop old process 
+[DDoSakura]: 2019/01/21 18:57:44 fresh webpage
+[DDoSakura]: 2019/01/21 18:57:44 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:57:44 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:57:44 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:57:44 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:57:44 end 
+[DDoSakura]: 2019/01/21 18:57:44 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 18:57:44 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 18:57:44 vfs read
+[DDoSakura]: 2019/01/21 18:57:44 vfs closing
+[DDoSakura]: 2019/01/21 18:59:08 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:59:08 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:59:08 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:08 stop old process 
+[DDoSakura]: 2019/01/21 18:59:08 fresh webpage
+[DDoSakura]: 2019/01/21 18:59:08 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:59:08 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:08 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:59:08 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:08 end 
+[DDoSakura]: 2019/01/21 18:59:20 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:59:20 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:59:20 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:20 stop old process 
+[DDoSakura]: 2019/01/21 18:59:20 fresh webpage
+[DDoSakura]: 2019/01/21 18:59:20 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:59:20 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:20 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:59:20 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:20 end 
+[DDoSakura]: 2019/01/21 18:59:25 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:59:25 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:59:25 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:25 stop old process 
+[DDoSakura]: 2019/01/21 18:59:25 fresh webpage
+[DDoSakura]: 2019/01/21 18:59:25 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:59:25 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:25 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:59:25 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:25 end 
+[DDoSakura]: 2019/01/21 18:59:27 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:59:27 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 18:59:27 err:  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:27 stop old process 
+[DDoSakura]: 2019/01/21 18:59:27 fresh webpage
+[DDoSakura]: 2019/01/21 18:59:27 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 18:59:27 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:27 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 18:59:27 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 18:59:27 end 
+[DDoSakura]: 2019/01/21 19:00:28 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:00:28 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:00:28 vfs read
+[DDoSakura]: 2019/01/21 19:00:28 vfs closing
+[DDoSakura]: 2019/01/21 19:00:47 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 19:00:47 loading directory...
+[DDoSakura]: 2019/01/21 19:00:47 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 19:00:47 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 19:00:47 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 19:00:47 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 19:00:47 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 19:00:47 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 19:00:47 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 19:00:47 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 19:00:47 ready!
+[DDoSakura]: 2019/01/21 19:00:47 :3000
+[DDoSakura]: 2019/01/21 19:00:48 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:00:48 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:00:48 vfs closing
+[DDoSakura]: 2019/01/21 19:01:05 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:01:05 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:01:05 vfs read
+[DDoSakura]: 2019/01/21 19:01:05 vfs closing
+[DDoSakura]: 2019/01/21 19:01:15 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:01:15 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:01:15 vfs read
+[DDoSakura]: 2019/01/21 19:01:15 vfs closing
+[DDoSakura]: 2019/01/21 19:01:25 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:01:25 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:01:25 fresh webpage
+[DDoSakura]: 2019/01/21 19:01:25 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:01:25 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:01:25 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:01:25 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:01:25 end 
+[DDoSakura]: 2019/01/21 19:01:25 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:01:25 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:01:25 vfs read
+[DDoSakura]: 2019/01/21 19:01:25 vfs closing
+[DDoSakura]: 2019/01/21 19:05:20 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:20 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:20 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:05:20 stop old process 
+[DDoSakura]: 2019/01/21 19:05:20 fresh webpage
+[DDoSakura]: 2019/01/21 19:05:20 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:05:20 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:05:20 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:05:20 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:05:20 end 
+[DDoSakura]: 2019/01/21 19:05:20 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:20 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:20 vfs read
+[DDoSakura]: 2019/01/21 19:05:20 vfs closing
+[DDoSakura]: 2019/01/21 19:05:56 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:56 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:56 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:05:56 stop old process 
+[DDoSakura]: 2019/01/21 19:05:56 fresh webpage
+[DDoSakura]: 2019/01/21 19:05:56 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:05:56 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:05:56 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:05:56 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:05:56 end 
+[DDoSakura]: 2019/01/21 19:05:56 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:56 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:56 vfs read
+[DDoSakura]: 2019/01/21 19:05:56 vfs closing
+[DDoSakura]: 2019/01/21 19:05:58 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:58 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:58 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:05:58 stop old process 
+[DDoSakura]: 2019/01/21 19:05:58 fresh webpage
+[DDoSakura]: 2019/01/21 19:05:58 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:05:58 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:05:58 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:05:58 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:05:58 end 
+[DDoSakura]: 2019/01/21 19:05:58 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:58 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:05:58 vfs read
+[DDoSakura]: 2019/01/21 19:05:58 vfs closing
+[DDoSakura]: 2019/01/21 19:06:09 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:06:09 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:06:09 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:06:09 stop old process 
+[DDoSakura]: 2019/01/21 19:06:09 fresh webpage
+[DDoSakura]: 2019/01/21 19:06:09 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:06:09 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:06:09 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:06:09 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:06:09 end 
+[DDoSakura]: 2019/01/21 19:06:09 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:06:09 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:06:09 vfs read
+[DDoSakura]: 2019/01/21 19:06:09 vfs closing
+[DDoSakura]: 2019/01/21 19:06:52 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:06:52 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:06:52 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:06:52 stop old process 
+[DDoSakura]: 2019/01/21 19:06:52 fresh webpage
+[DDoSakura]: 2019/01/21 19:06:52 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:06:52 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:06:52 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:06:52 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:06:52 end 
+[DDoSakura]: 2019/01/21 19:06:52 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:06:52 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:06:52 vfs read
+[DDoSakura]: 2019/01/21 19:06:52 vfs closing
+[DDoSakura]: 2019/01/21 19:07:10 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:07:10 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:07:10 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:07:10 stop old process 
+[DDoSakura]: 2019/01/21 19:07:10 fresh webpage
+[DDoSakura]: 2019/01/21 19:07:10 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:07:10 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:07:10 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:07:10 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:07:10 end 
+[DDoSakura]: 2019/01/21 19:07:11 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:07:11 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:07:11 vfs read
+[DDoSakura]: 2019/01/21 19:07:11 vfs closing
+[DDoSakura]: 2019/01/21 19:08:45 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:08:45 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:08:45 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:08:45 stop old process 
+[DDoSakura]: 2019/01/21 19:08:45 fresh webpage
+[DDoSakura]: 2019/01/21 19:08:45 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:08:45 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:08:45 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:08:45 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:08:45 end 
+[DDoSakura]: 2019/01/21 19:08:46 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:08:46 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:08:46 vfs read
+[DDoSakura]: 2019/01/21 19:08:46 vfs closing
+[DDoSakura]: 2019/01/21 19:08:59 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:08:59 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:08:59 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:08:59 stop old process 
+[DDoSakura]: 2019/01/21 19:08:59 fresh webpage
+[DDoSakura]: 2019/01/21 19:08:59 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:08:59 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:08:59 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:08:59 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:08:59 end 
+[DDoSakura]: 2019/01/21 19:08:59 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:08:59 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:08:59 vfs read
+[DDoSakura]: 2019/01/21 19:08:59 vfs closing
+[DDoSakura]: 2019/01/21 19:09:13 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:09:13 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:09:13 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:09:13 stop old process 
+[DDoSakura]: 2019/01/21 19:09:13 fresh webpage
+[DDoSakura]: 2019/01/21 19:09:13 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:09:13 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:09:13 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:09:13 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:09:13 end 
+[DDoSakura]: 2019/01/21 19:09:13 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:09:13 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:09:13 vfs read
+[DDoSakura]: 2019/01/21 19:09:13 vfs closing
+[DDoSakura]: 2019/01/21 19:15:07 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:15:07 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:15:07 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:15:07 stop old process 
+[DDoSakura]: 2019/01/21 19:15:07 fresh webpage
+[DDoSakura]: 2019/01/21 19:15:07 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:15:07 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:15:07 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:15:07 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:15:07 end 
+[DDoSakura]: 2019/01/21 19:15:07 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:15:07 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:15:07 vfs read
+[DDoSakura]: 2019/01/21 19:15:07 vfs closing
+[DDoSakura]: 2019/01/21 19:15:11 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:15:11 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:15:11 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:15:11 stop old process 
+[DDoSakura]: 2019/01/21 19:15:11 fresh webpage
+[DDoSakura]: 2019/01/21 19:15:11 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:15:11 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:15:11 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:15:11 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:15:11 end 
+[DDoSakura]: 2019/01/21 19:15:11 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:15:11 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:15:11 vfs read
+[DDoSakura]: 2019/01/21 19:15:11 vfs closing
+[DDoSakura]: 2019/01/21 19:16:18 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:16:18 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:16:18 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:16:18 stop old process 
+[DDoSakura]: 2019/01/21 19:16:18 fresh webpage
+[DDoSakura]: 2019/01/21 19:16:18 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:16:18 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:16:18 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:16:18 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:16:18 end 
+[DDoSakura]: 2019/01/21 19:16:18 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:16:18 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:16:18 vfs read
+[DDoSakura]: 2019/01/21 19:16:18 vfs closing
+[DDoSakura]: 2019/01/21 19:16:47 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:16:47 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:16:47 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:16:47 stop old process 
+[DDoSakura]: 2019/01/21 19:16:47 fresh webpage
+[DDoSakura]: 2019/01/21 19:16:47 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:16:47 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:16:47 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:16:47 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:16:47 end 
+[DDoSakura]: 2019/01/21 19:16:47 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:16:47 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:16:47 vfs read
+[DDoSakura]: 2019/01/21 19:16:47 vfs closing
+[DDoSakura]: 2019/01/21 19:18:13 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:18:13 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:18:13 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:18:13 stop old process 
+[DDoSakura]: 2019/01/21 19:18:13 fresh webpage
+[DDoSakura]: 2019/01/21 19:18:13 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:18:13 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:18:13 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:18:13 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:18:13 end 
+[DDoSakura]: 2019/01/21 19:18:13 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:18:13 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:18:13 vfs read
+[DDoSakura]: 2019/01/21 19:18:13 vfs closing
+[DDoSakura]: 2019/01/21 19:18:35 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:18:35 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:18:35 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:18:35 stop old process 
+[DDoSakura]: 2019/01/21 19:18:35 fresh webpage
+[DDoSakura]: 2019/01/21 19:18:35 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:18:35 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:18:35 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:18:35 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:18:35 end 
+[DDoSakura]: 2019/01/21 19:18:35 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:18:35 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:18:35 vfs read
+[DDoSakura]: 2019/01/21 19:18:35 vfs closing
+[DDoSakura]: 2019/01/21 19:19:10 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:19:10 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:19:10 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:19:10 stop old process 
+[DDoSakura]: 2019/01/21 19:19:10 fresh webpage
+[DDoSakura]: 2019/01/21 19:19:10 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:19:10 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:19:10 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:19:10 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:19:10 end 
+[DDoSakura]: 2019/01/21 19:19:10 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:19:10 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:19:10 vfs read
+[DDoSakura]: 2019/01/21 19:19:10 vfs closing
+[DDoSakura]: 2019/01/21 19:21:46 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:21:46 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:21:46 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:21:46 stop old process 
+[DDoSakura]: 2019/01/21 19:21:46 fresh webpage
+[DDoSakura]: 2019/01/21 19:21:46 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:21:46 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:21:46 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:21:46 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:21:46 end 
+[DDoSakura]: 2019/01/21 19:21:46 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:21:46 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:21:46 vfs read
+[DDoSakura]: 2019/01/21 19:21:46 vfs closing
+[DDoSakura]: 2019/01/21 19:21:59 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:21:59 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:21:59 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:21:59 stop old process 
+[DDoSakura]: 2019/01/21 19:21:59 fresh webpage
+[DDoSakura]: 2019/01/21 19:21:59 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:21:59 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:21:59 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:21:59 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:21:59 end 
+[DDoSakura]: 2019/01/21 19:21:59 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:21:59 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:21:59 vfs read
+[DDoSakura]: 2019/01/21 19:21:59 vfs closing
+[DDoSakura]: 2019/01/21 19:22:32 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:22:32 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:22:32 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:22:32 stop old process 
+[DDoSakura]: 2019/01/21 19:22:32 fresh webpage
+[DDoSakura]: 2019/01/21 19:22:32 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:22:32 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:22:32 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:22:32 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:22:32 end 
+[DDoSakura]: 2019/01/21 19:22:32 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:22:32 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:22:32 vfs read
+[DDoSakura]: 2019/01/21 19:22:32 vfs closing
+[DDoSakura]: 2019/01/21 19:22:55 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:22:55 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:22:55 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:22:55 stop old process 
+[DDoSakura]: 2019/01/21 19:22:55 fresh webpage
+[DDoSakura]: 2019/01/21 19:22:55 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:22:55 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:22:55 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:22:55 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:22:55 end 
+[DDoSakura]: 2019/01/21 19:22:55 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:22:55 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:22:55 vfs read
+[DDoSakura]: 2019/01/21 19:22:55 vfs closing
+[DDoSakura]: 2019/01/21 19:23:20 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:23:20 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:23:20 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:23:20 stop old process 
+[DDoSakura]: 2019/01/21 19:23:20 fresh webpage
+[DDoSakura]: 2019/01/21 19:23:20 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:23:20 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:23:20 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:23:20 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:23:20 end 
+[DDoSakura]: 2019/01/21 19:23:20 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:23:20 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:23:20 vfs read
+[DDoSakura]: 2019/01/21 19:23:20 vfs closing
+[DDoSakura]: 2019/01/21 19:26:39 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:26:39 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:26:39 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:26:39 stop old process 
+[DDoSakura]: 2019/01/21 19:26:39 fresh webpage
+[DDoSakura]: 2019/01/21 19:26:39 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:26:39 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:26:39 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:26:39 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:26:39 end 
+[DDoSakura]: 2019/01/21 19:26:39 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:26:39 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:26:39 vfs read
+[DDoSakura]: 2019/01/21 19:26:39 vfs closing
+[DDoSakura]: 2019/01/21 19:26:49 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:26:49 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:26:49 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:26:49 stop old process 
+[DDoSakura]: 2019/01/21 19:26:49 fresh webpage
+[DDoSakura]: 2019/01/21 19:26:49 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:26:49 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:26:49 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:26:49 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:26:49 end 
+[DDoSakura]: 2019/01/21 19:26:49 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:26:49 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:26:49 vfs read
+[DDoSakura]: 2019/01/21 19:26:49 vfs closing
+[DDoSakura]: 2019/01/21 19:27:18 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:27:18 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:27:18 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:27:18 stop old process 
+[DDoSakura]: 2019/01/21 19:27:18 fresh webpage
+[DDoSakura]: 2019/01/21 19:27:18 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:27:18 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:27:18 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:27:18 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:27:18 end 
+[DDoSakura]: 2019/01/21 19:27:18 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:27:18 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:27:18 vfs read
+[DDoSakura]: 2019/01/21 19:27:18 vfs closing
+[DDoSakura]: 2019/01/21 19:27:22 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:27:22 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:27:22 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:27:22 stop old process 
+[DDoSakura]: 2019/01/21 19:27:22 fresh webpage
+[DDoSakura]: 2019/01/21 19:27:22 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:27:22 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:27:22 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:27:22 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:27:22 end 
+[DDoSakura]: 2019/01/21 19:27:24 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:27:24 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:27:24 vfs read
+[DDoSakura]: 2019/01/21 19:27:24 vfs closing
+[DDoSakura]: 2019/01/21 19:27:26 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:27:26 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:27:26 vfs read
+[DDoSakura]: 2019/01/21 19:27:26 vfs closing
+[DDoSakura]: 2019/01/21 19:28:01 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:28:01 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:28:01 vfs read
+[DDoSakura]: 2019/01/21 19:28:01 vfs closing
+[DDoSakura]: 2019/01/21 19:28:13 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:28:13 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:28:13 vfs closing
+[DDoSakura]: 2019/01/21 19:28:59 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:28:59 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:28:59 vfs closing
+[DDoSakura]: 2019/01/21 19:31:05 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:31:05 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:31:05 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:31:05 stop old process 
+[DDoSakura]: 2019/01/21 19:31:05 fresh webpage
+[DDoSakura]: 2019/01/21 19:31:05 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:31:05 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:31:05 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:31:05 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:31:05 end 
+[DDoSakura]: 2019/01/21 19:31:05 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:31:05 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:31:05 vfs read
+[DDoSakura]: 2019/01/21 19:31:05 vfs closing
+[DDoSakura]: 2019/01/21 19:31:47 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:31:47 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:31:47 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:31:47 stop old process 
+[DDoSakura]: 2019/01/21 19:31:47 fresh webpage
+[DDoSakura]: 2019/01/21 19:31:47 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:31:47 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:31:47 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:31:47 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:31:47 end 
+[DDoSakura]: 2019/01/21 19:31:47 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:31:47 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:31:47 vfs read
+[DDoSakura]: 2019/01/21 19:31:47 vfs closing
+[DDoSakura]: 2019/01/21 19:32:48 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:32:48 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:32:48 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:32:48 stop old process 
+[DDoSakura]: 2019/01/21 19:32:48 fresh webpage
+[DDoSakura]: 2019/01/21 19:32:48 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:32:48 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:32:48 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:32:48 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:32:48 end 
+[DDoSakura]: 2019/01/21 19:32:48 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:32:48 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:32:48 vfs read
+[DDoSakura]: 2019/01/21 19:32:48 vfs closing
+[DDoSakura]: 2019/01/21 19:33:07 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:33:07 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:33:07 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:33:07 stop old process 
+[DDoSakura]: 2019/01/21 19:33:07 fresh webpage
+[DDoSakura]: 2019/01/21 19:33:07 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:33:07 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:33:07 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:33:07 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:33:07 end 
+[DDoSakura]: 2019/01/21 19:33:07 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:33:07 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:33:07 vfs read
+[DDoSakura]: 2019/01/21 19:33:07 vfs closing
+[DDoSakura]: 2019/01/21 19:33:56 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:33:56 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:33:56 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:33:56 stop old process 
+[DDoSakura]: 2019/01/21 19:33:56 fresh webpage
+[DDoSakura]: 2019/01/21 19:33:56 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:33:56 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:33:56 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:33:56 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:33:56 end 
+[DDoSakura]: 2019/01/21 19:33:56 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:33:56 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:33:56 vfs read
+[DDoSakura]: 2019/01/21 19:33:56 vfs closing
+[DDoSakura]: 2019/01/21 19:34:20 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:34:20 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 19:34:20 err:  os: process already finished
+[DDoSakura]: 2019/01/21 19:34:20 stop old process 
+[DDoSakura]: 2019/01/21 19:34:20 fresh webpage
+[DDoSakura]: 2019/01/21 19:34:20 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 19:34:20 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:34:20 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 19:34:20 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 19:34:20 end 
+[DDoSakura]: 2019/01/21 19:34:20 vfs open /dssdapp.js
+[DDoSakura]: 2019/01/21 19:34:20 vfs stat /dssdapp.js
+[DDoSakura]: 2019/01/21 19:34:20 vfs read
+[DDoSakura]: 2019/01/21 19:34:20 vfs closing
+[DDoSakura]: 2019/01/21 20:18:44 Config File "dssdc" Not Found in "[/home/moyinzi/projects/ds-watcher/simple-dev/othertest]"
+[DDoSakura]: 2019/01/21 20:18:44 create /home/moyinzi/projects/ds-watcher/simple-dev/othertest/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:18:44 init /home/moyinzi/projects/ds-watcher/simple-dev/othertest/dssdc.db
+[DDoSakura]: 2019/01/21 20:19:28 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/othertest/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:19:28 loading directory...
+[DDoSakura]: 2019/01/21 20:19:28 open ./src: no such file or directory
+[DDoSakura]: 2019/01/21 20:20:21 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/othertest/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:20:21 loading directory...
+[DDoSakura]: 2019/01/21 20:20:21 :3000
+[DDoSakura]: 2019/01/21 20:21:23 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/othertest/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:21:23 loading directory...
+[DDoSakura]: 2019/01/21 20:21:23 :3000
+[DDoSakura]: 2019/01/21 20:21:23 watcher add ->  .
+[DDoSakura]: 2019/01/21 20:21:23 watcher add ->  assets
+[DDoSakura]: 2019/01/21 20:22:01 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/othertest/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:22:01 loading directory...
+[DDoSakura]: 2019/01/21 20:22:01 watcher add ->  ../othertest
+[DDoSakura]: 2019/01/21 20:22:01 ready!
+[DDoSakura]: 2019/01/21 20:22:01 :3000
+[DDoSakura]: 2019/01/21 20:22:13 EVENT WRITE ../othertest/main.go
+[DDoSakura]: 2019/01/21 20:22:13 EVENT WRITE ../othertest/main.go
+[DDoSakura]: 2019/01/21 20:22:13 fresh webpage
+[DDoSakura]: 2019/01/21 20:22:13 EXEC [echo fresh]
+[DDoSakura]: 2019/01/21 20:22:13 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 20:22:13 end 
+[DDoSakura]: 2019/01/21 20:22:34 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/othertest/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:22:34 loading directory...
+[DDoSakura]: 2019/01/21 20:22:34 watcher add ->  ../othertest
+[DDoSakura]: 2019/01/21 20:22:34 ready!
+[DDoSakura]: 2019/01/21 20:22:34 :3000
+[DDoSakura]: 2019/01/21 20:23:13 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/othertest/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:23:13 loading directory...
+[DDoSakura]: 2019/01/21 20:23:13 watcher add ->  ../othertest
+[DDoSakura]: 2019/01/21 20:23:13 ready!
+[DDoSakura]: 2019/01/21 20:23:13 :3000
+[DDoSakura]: 2019/01/21 20:24:28 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/othertest/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:24:28 loading directory...
+[DDoSakura]: 2019/01/21 20:24:28 watcher add ->  ../othertest
+[DDoSakura]: 2019/01/21 20:24:28 ready!
+[DDoSakura]: 2019/01/21 20:24:28 :3000
+[DDoSakura]: 2019/01/21 20:25:24 .yaml [.go] false
+[DDoSakura]: 2019/01/21 20:25:24 .yaml [.go] false
+[DDoSakura]: 2019/01/21 20:25:30 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/othertest/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:25:30 loading directory...
+[DDoSakura]: 2019/01/21 20:25:30 watcher add ->  ../othertest
+[DDoSakura]: 2019/01/21 20:25:30 ready!
+[DDoSakura]: 2019/01/21 20:25:30 :3000
+[DDoSakura]: 2019/01/21 20:25:54 EVENT WRITE ../othertest/main.go
+[DDoSakura]: 2019/01/21 20:25:54 EVENT WRITE ../othertest/main.go
+[DDoSakura]: 2019/01/21 20:25:54 fresh webpage
+[DDoSakura]: 2019/01/21 20:25:54 EXEC [echo fresh]
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 20:25:54 end 
+[DDoSakura]: 2019/01/21 20:25:54 .db [.go] false
+[DDoSakura]: 2019/01/21 20:25:54 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:26:11 EVENT WRITE ../othertest/main.go
+[DDoSakura]: 2019/01/21 20:26:11 EVENT WRITE ../othertest/main.go
+[DDoSakura]: 2019/01/21 20:26:11 err:  os: process already finished
+[DDoSakura]: 2019/01/21 20:26:11 stop old process 
+[DDoSakura]: 2019/01/21 20:26:11 fresh webpage
+[DDoSakura]: 2019/01/21 20:26:11 EXEC [echo fresh]
+[DDoSakura]: 2019/01/21 20:26:11 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:26:11 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:26:11 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:26:11 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:26:11 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:26:11 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:26:11 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 20:26:11 end 
+[DDoSakura]: 2019/01/21 20:26:12 .db [.go] false
+[DDoSakura]: 2019/01/21 20:26:12 .db [.go] false
+[DDoSakura]: 2019/01/21 20:26:12 .db-journal [.go] false
+[DDoSakura]: 2019/01/21 20:32:43 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:32:43 loading directory...
+[DDoSakura]: 2019/01/21 20:32:43 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 20:32:43 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 20:32:43 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 20:32:43 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 20:32:43 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 20:32:43 :3000
+[DDoSakura]: 2019/01/21 20:32:43 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 20:32:43 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 20:32:43 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 20:32:43 ready!
+[DDoSakura]: 2019/01/21 20:33:42 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 20:33:42 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 20:33:42 fresh webpage
+[DDoSakura]: 2019/01/21 20:33:42 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 20:33:42 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 20:33:42 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 20:33:42 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 20:33:42 end 
+[DDoSakura]: 2019/01/21 20:33:50 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:33:50 loading directory...
+[DDoSakura]: 2019/01/21 20:33:50 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 20:33:50 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 20:33:50 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 20:33:50 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 20:33:50 :3000
+[DDoSakura]: 2019/01/21 20:33:50 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 20:33:50 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 20:33:50 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 20:33:50 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 20:33:50 ready!
+[DDoSakura]: 2019/01/21 20:34:07 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 20:34:07 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 20:34:07 fresh webpage
+[DDoSakura]: 2019/01/21 20:34:07 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 20:34:07 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 20:34:07 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 20:34:07 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 20:34:07 end 
+[DDoSakura]: 2019/01/21 20:34:29 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 20:34:29 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 20:34:29 err:  os: process already finished
+[DDoSakura]: 2019/01/21 20:34:29 stop old process 
+[DDoSakura]: 2019/01/21 20:34:29 fresh webpage
+[DDoSakura]: 2019/01/21 20:34:29 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 20:34:29 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 20:34:29 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 20:34:29 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 20:34:29 end 
+[DDoSakura]: 2019/01/21 20:34:41 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/othertest/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:34:41 loading directory...
+[DDoSakura]: 2019/01/21 20:34:41 watcher add ->  ../othertest
+[DDoSakura]: 2019/01/21 20:34:41 ready!
+[DDoSakura]: 2019/01/21 20:34:41 :3000
+[DDoSakura]: 2019/01/21 20:46:02 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:46:02 loading directory...
+[DDoSakura]: 2019/01/21 20:46:02 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 20:46:02 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 20:46:02 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 20:46:02 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 20:46:02 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 20:46:02 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 20:46:02 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 20:46:02 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 20:46:02 ready!
+[DDoSakura]: 2019/01/21 20:46:02 :3000
+[DDoSakura]: 2019/01/21 20:48:11 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 20:48:11 EVENT WRITE assets/dssdapp.js
+[DDoSakura]: 2019/01/21 20:48:11 fresh webpage
+[DDoSakura]: 2019/01/21 20:48:11 EXEC [echo fresh assets/dssdapp.js]
+[DDoSakura]: 2019/01/21 20:48:11 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 20:48:11 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 20:48:11 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 20:48:11 end 
+[DDoSakura]: 2019/01/21 20:48:25 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 20:48:25 loading directory...
+[DDoSakura]: 2019/01/21 20:48:25 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 20:48:25 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 20:48:25 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 20:48:25 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 20:48:25 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 20:48:25 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 20:48:25 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 20:48:25 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 20:48:25 ready!
+[DDoSakura]: 2019/01/21 20:48:25 :3000
+[DDoSakura]: 2019/01/21 23:06:11 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 23:06:11 loading directory...
+[DDoSakura]: 2019/01/21 23:06:11 :3000
+[DDoSakura]: 2019/01/21 23:06:11 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 23:06:11 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 23:06:11 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 23:06:11 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 23:06:11 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 23:06:11 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 23:06:11 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 23:06:11 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 23:06:11 ready!
+[DDoSakura]: 2019/01/21 23:06:33 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 23:06:33 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 23:06:33 fresh webpage
+[DDoSakura]: 2019/01/21 23:06:33 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 23:06:33 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 23:06:33 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 23:06:33 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 23:06:33 end 
+[DDoSakura]: 2019/01/21 23:06:33 notifier done .
+[DDoSakura]: 2019/01/21 23:06:47 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 23:06:47 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 23:06:47 err:  os: process already finished
+[DDoSakura]: 2019/01/21 23:06:47 stop old process 
+[DDoSakura]: 2019/01/21 23:06:47 fresh webpage
+[DDoSakura]: 2019/01/21 23:06:47 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 23:06:47 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 23:06:47 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 23:06:47 notifier done .
+[DDoSakura]: 2019/01/21 23:06:47 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 23:06:47 end 
+[DDoSakura]: 2019/01/21 23:07:54 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 23:07:54 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 23:07:54 err:  os: process already finished
+[DDoSakura]: 2019/01/21 23:07:54 stop old process 
+[DDoSakura]: 2019/01/21 23:07:54 fresh webpage
+[DDoSakura]: 2019/01/21 23:07:54 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 23:07:54 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 23:07:54 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 23:07:54 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 23:07:54 end 
+[DDoSakura]: 2019/01/21 23:07:54 notifier done .
+[DDoSakura]: 2019/01/21 23:16:27 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/21 23:16:27 loading directory...
+[DDoSakura]: 2019/01/21 23:16:27 watcher add ->  ./assets
+[DDoSakura]: 2019/01/21 23:16:27 watcher add ->  ./test
+[DDoSakura]: 2019/01/21 23:16:27 watcher add ->  test/l
+[DDoSakura]: 2019/01/21 23:16:27 watcher add ->  ./test2
+[DDoSakura]: 2019/01/21 23:16:27 watcher add ->  test2/a
+[DDoSakura]: 2019/01/21 23:16:27 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/21 23:16:27 watcher add ->  test2/b
+[DDoSakura]: 2019/01/21 23:16:27 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/21 23:16:27 ready!
+[DDoSakura]: 2019/01/21 23:16:27 :3000
+[DDoSakura]: 2019/01/21 23:16:37 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 23:16:37 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 23:16:37 fresh webpage
+[DDoSakura]: 2019/01/21 23:16:37 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 23:16:37 notifier done .
+[DDoSakura]: 2019/01/21 23:16:37 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 23:16:37 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 23:16:37 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 23:16:37 end 
+[DDoSakura]: 2019/01/21 23:17:23 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 23:17:23 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/21 23:17:23 err:  os: process already finished
+[DDoSakura]: 2019/01/21 23:17:23 stop old process 
+[DDoSakura]: 2019/01/21 23:17:23 fresh webpage
+[DDoSakura]: 2019/01/21 23:17:23 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/21 23:17:23 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 23:17:23 EXEC [uname -a]
+[DDoSakura]: 2019/01/21 23:17:23 notifier done .
+[DDoSakura]: 2019/01/21 23:17:23 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/21 23:17:23 end 
+[DDoSakura]: 2019/01/22 03:44:52 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/22 03:44:52 loading directory...
+[DDoSakura]: 2019/01/22 03:44:52 watcher add ->  ./assets
+[DDoSakura]: 2019/01/22 03:44:52 watcher add ->  ./test
+[DDoSakura]: 2019/01/22 03:44:52 watcher add ->  test/l
+[DDoSakura]: 2019/01/22 03:44:52 watcher add ->  ./test2
+[DDoSakura]: 2019/01/22 03:44:52 watcher add ->  test2/a
+[DDoSakura]: 2019/01/22 03:44:52 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/22 03:44:52 watcher add ->  test2/b
+[DDoSakura]: 2019/01/22 03:44:52 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/22 03:44:52 :3000
+[DDoSakura]: 2019/01/22 03:44:52 ready!
+[DDoSakura]: 2019/01/22 03:45:09 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 03:45:09 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 03:45:09 fresh webpage
+[DDoSakura]: 2019/01/22 03:45:09 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 03:45:09 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 03:45:09 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 03:45:09 notifier done .
+[DDoSakura]: 2019/01/22 03:45:09 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 03:45:09 end 
+[DDoSakura]: 2019/01/22 03:49:33 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/22 03:49:33 loading directory...
+[DDoSakura]: 2019/01/22 03:49:33 watcher add ->  ./assets
+[DDoSakura]: 2019/01/22 03:49:33 watcher add ->  ./test
+[DDoSakura]: 2019/01/22 03:49:33 watcher add ->  test/l
+[DDoSakura]: 2019/01/22 03:49:33 :3000
+[DDoSakura]: 2019/01/22 03:49:33 watcher add ->  ./test2
+[DDoSakura]: 2019/01/22 03:49:33 watcher add ->  test2/a
+[DDoSakura]: 2019/01/22 03:49:33 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/22 03:49:33 watcher add ->  test2/b
+[DDoSakura]: 2019/01/22 03:49:33 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/22 03:49:33 ready!
+[DDoSakura]: 2019/01/22 03:49:39 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 03:49:39 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 03:49:39 fresh webpage
+[DDoSakura]: 2019/01/22 03:49:39 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 03:49:39 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 03:49:39 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 03:49:39 notifier done .
+[DDoSakura]: 2019/01/22 03:49:39 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 03:49:39 end 
+[DDoSakura]: 2019/01/22 03:52:40 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 03:52:40 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 03:52:40 err:  os: process already finished
+[DDoSakura]: 2019/01/22 03:52:40 stop old process 
+[DDoSakura]: 2019/01/22 03:52:40 fresh webpage
+[DDoSakura]: 2019/01/22 03:52:40 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 03:52:40 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 03:52:40 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 03:52:40 notifier call failed. err: Post http://localhost:2000/note.action: EOF
+[DDoSakura]: 2019/01/22 03:52:40 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 03:52:40 end 
+[DDoSakura]: 2019/01/22 03:57:00 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/22 03:57:00 loading directory...
+[DDoSakura]: 2019/01/22 03:57:00 watcher add ->  ./assets
+[DDoSakura]: 2019/01/22 03:57:00 :3000
+[DDoSakura]: 2019/01/22 03:57:00 watcher add ->  ./test
+[DDoSakura]: 2019/01/22 03:57:00 watcher add ->  test/l
+[DDoSakura]: 2019/01/22 03:57:00 watcher add ->  ./test2
+[DDoSakura]: 2019/01/22 03:57:00 watcher add ->  test2/a
+[DDoSakura]: 2019/01/22 03:57:00 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/22 03:57:00 watcher add ->  test2/b
+[DDoSakura]: 2019/01/22 03:57:00 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/22 03:57:00 ready!
+[DDoSakura]: 2019/01/22 03:57:04 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 03:57:04 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 03:57:04 fresh webpage
+[DDoSakura]: 2019/01/22 03:57:04 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 03:57:04 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 03:57:04 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 03:57:04 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 03:57:04 end 
+[DDoSakura]: 2019/01/22 04:04:34 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/22 04:04:34 loading directory...
+[DDoSakura]: 2019/01/22 04:04:34 watcher add ->  ./assets
+[DDoSakura]: 2019/01/22 04:04:34 watcher add ->  ./test
+[DDoSakura]: 2019/01/22 04:04:34 watcher add ->  test/l
+[DDoSakura]: 2019/01/22 04:04:34 watcher add ->  ./test2
+[DDoSakura]: 2019/01/22 04:04:34 watcher add ->  test2/a
+[DDoSakura]: 2019/01/22 04:04:34 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/22 04:04:34 watcher add ->  test2/b
+[DDoSakura]: 2019/01/22 04:04:34 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/22 04:04:34 ready!
+[DDoSakura]: 2019/01/22 04:04:34 :3000
+[DDoSakura]: 2019/01/22 04:04:39 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:04:39 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:04:39 fresh webpage
+[DDoSakura]: 2019/01/22 04:04:39 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 04:04:39 notifier call failed. err: Post http://127.0.0.1/test.php: dial tcp 127.0.0.1:80: connect: connection refused
+[DDoSakura]: 2019/01/22 04:04:39 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:04:39 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 04:04:39 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:04:39 end 
+[DDoSakura]: 2019/01/22 04:05:09 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/22 04:05:09 loading directory...
+[DDoSakura]: 2019/01/22 04:05:09 watcher add ->  ./assets
+[DDoSakura]: 2019/01/22 04:05:09 watcher add ->  ./test
+[DDoSakura]: 2019/01/22 04:05:09 watcher add ->  test/l
+[DDoSakura]: 2019/01/22 04:05:09 watcher add ->  ./test2
+[DDoSakura]: 2019/01/22 04:05:09 watcher add ->  test2/a
+[DDoSakura]: 2019/01/22 04:05:09 :3000
+[DDoSakura]: 2019/01/22 04:05:09 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/22 04:05:09 watcher add ->  test2/b
+[DDoSakura]: 2019/01/22 04:05:09 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/22 04:05:09 ready!
+[DDoSakura]: 2019/01/22 04:05:34 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:05:34 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:05:34 fresh webpage
+[DDoSakura]: 2019/01/22 04:05:34 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 04:05:34 notifier call failed. err: Post http://127.0.0.1/test.php: dial tcp 127.0.0.1:80: connect: connection refused
+[DDoSakura]: 2019/01/22 04:05:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:05:34 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 04:05:34 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:05:34 end 
+[DDoSakura]: 2019/01/22 04:06:14 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/22 04:06:14 loading directory...
+[DDoSakura]: 2019/01/22 04:06:14 watcher add ->  ./assets
+[DDoSakura]: 2019/01/22 04:06:14 watcher add ->  ./test
+[DDoSakura]: 2019/01/22 04:06:14 watcher add ->  test/l
+[DDoSakura]: 2019/01/22 04:06:14 watcher add ->  ./test2
+[DDoSakura]: 2019/01/22 04:06:14 watcher add ->  test2/a
+[DDoSakura]: 2019/01/22 04:06:14 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/22 04:06:14 watcher add ->  test2/b
+[DDoSakura]: 2019/01/22 04:06:14 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/22 04:06:14 ready!
+[DDoSakura]: 2019/01/22 04:06:14 :3000
+[DDoSakura]: 2019/01/22 04:06:19 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:06:19 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:06:19 fresh webpage
+[DDoSakura]: 2019/01/22 04:06:19 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 04:06:19 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:06:19 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 04:06:19 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:06:19 end 
+[DDoSakura]: 2019/01/22 04:13:04 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/22 04:13:04 loading directory...
+[DDoSakura]: 2019/01/22 04:13:04 :3000
+[DDoSakura]: 2019/01/22 04:13:04 watcher add ->  ./assets
+[DDoSakura]: 2019/01/22 04:13:04 watcher add ->  ./test
+[DDoSakura]: 2019/01/22 04:13:04 watcher add ->  test/l
+[DDoSakura]: 2019/01/22 04:13:04 watcher add ->  ./test2
+[DDoSakura]: 2019/01/22 04:13:04 watcher add ->  test2/a
+[DDoSakura]: 2019/01/22 04:13:04 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/22 04:13:04 watcher add ->  test2/b
+[DDoSakura]: 2019/01/22 04:13:04 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/22 04:13:04 ready!
+[DDoSakura]: 2019/01/22 04:13:09 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:13:09 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:13:09 fresh webpage
+[DDoSakura]: 2019/01/22 04:13:09 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 04:13:09 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:13:09 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 04:13:09 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:13:09 end 
+[DDoSakura]: 2019/01/22 04:14:05 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:14:05 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:14:05 err:  os: process already finished
+[DDoSakura]: 2019/01/22 04:14:05 stop old process 
+[DDoSakura]: 2019/01/22 04:14:05 fresh webpage
+[DDoSakura]: 2019/01/22 04:14:05 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 04:14:05 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:14:05 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 04:14:05 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:14:05 end 
+[DDoSakura]: 2019/01/22 04:14:43 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:14:43 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:14:43 err:  os: process already finished
+[DDoSakura]: 2019/01/22 04:14:43 stop old process 
+[DDoSakura]: 2019/01/22 04:14:43 fresh webpage
+[DDoSakura]: 2019/01/22 04:14:43 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 04:14:43 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:14:43 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 04:14:43 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:14:43 end 
+[DDoSakura]: 2019/01/22 04:14:46 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:14:46 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:14:46 err:  os: process already finished
+[DDoSakura]: 2019/01/22 04:14:46 stop old process 
+[DDoSakura]: 2019/01/22 04:14:46 fresh webpage
+[DDoSakura]: 2019/01/22 04:14:46 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 04:14:46 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:14:46 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 04:14:46 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:14:46 end 
+[DDoSakura]: 2019/01/22 04:15:16 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/22 04:15:16 loading directory...
+[DDoSakura]: 2019/01/22 04:15:16 watcher add ->  ./assets
+[DDoSakura]: 2019/01/22 04:15:16 watcher add ->  ./test
+[DDoSakura]: 2019/01/22 04:15:16 watcher add ->  test/l
+[DDoSakura]: 2019/01/22 04:15:16 watcher add ->  ./test2
+[DDoSakura]: 2019/01/22 04:15:16 watcher add ->  test2/a
+[DDoSakura]: 2019/01/22 04:15:16 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/22 04:15:16 :3000
+[DDoSakura]: 2019/01/22 04:15:16 watcher add ->  test2/b
+[DDoSakura]: 2019/01/22 04:15:16 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/22 04:15:16 ready!
+[DDoSakura]: 2019/01/22 04:15:22 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:15:22 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:15:22 fresh webpage
+[DDoSakura]: 2019/01/22 04:15:22 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 04:15:22 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:15:22 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 04:15:22 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:15:22 end 
+[DDoSakura]: 2019/01/22 04:22:24 Find config file: /home/moyinzi/projects/ds-watcher/simple-dev/dssdc/dssdc.yaml
+[DDoSakura]: 2019/01/22 04:22:24 loading directory...
+[DDoSakura]: 2019/01/22 04:22:24 :3000
+[DDoSakura]: 2019/01/22 04:22:24 watcher add ->  ./assets
+[DDoSakura]: 2019/01/22 04:22:24 watcher add ->  ./test
+[DDoSakura]: 2019/01/22 04:22:24 watcher add ->  test/l
+[DDoSakura]: 2019/01/22 04:22:24 watcher add ->  ./test2
+[DDoSakura]: 2019/01/22 04:22:24 watcher add ->  test2/a
+[DDoSakura]: 2019/01/22 04:22:24 watcher add ->  test2/a/c
+[DDoSakura]: 2019/01/22 04:22:24 watcher add ->  test2/b
+[DDoSakura]: 2019/01/22 04:22:24 watcher add ->  ./test3/test
+[DDoSakura]: 2019/01/22 04:22:24 ready!
+[DDoSakura]: 2019/01/22 04:22:29 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:22:29 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:22:29 fresh webpage
+[DDoSakura]: 2019/01/22 04:22:29 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 04:22:29 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:22:29 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 04:22:29 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:22:29 end 
+[DDoSakura]: 2019/01/22 04:22:53 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:22:53 EVENT WRITE test/index.html
+[DDoSakura]: 2019/01/22 04:22:53 err:  os: process already finished
+[DDoSakura]: 2019/01/22 04:22:53 stop old process 
+[DDoSakura]: 2019/01/22 04:22:53 fresh webpage
+[DDoSakura]: 2019/01/22 04:22:53 EXEC [echo fresh test/index.html]
+[DDoSakura]: 2019/01/22 04:22:53 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:22:53 EXEC [uname -a]
+[DDoSakura]: 2019/01/22 04:22:53 cmd cannot kill  os: process already finished
+[DDoSakura]: 2019/01/22 04:22:53 end 

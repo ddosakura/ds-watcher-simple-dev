@@ -10,8 +10,10 @@ import (
 	"runtime"
 	"strconv"
 
+	"../../aferofsbinding"
 	_ "../statik"
 	"github.com/rakyll/statik/fs"
+	"github.com/spf13/afero"
 	"golang.org/x/net/websocket"
 )
 
@@ -21,17 +23,62 @@ var openCommands = map[string]string{
 	"linux":   "xdg-open",
 }
 
+var (
+	routeMap map[string]string
+)
+
 func initFreshing() {
 	statikFS, e := fs.New()
 	if e != nil {
 		fmt.Printf("err: %v\n", e)
 		os.Exit(1)
 	}
-	port := os.Getenv("WSDB_PORT")
+	port := os.Getenv("DSSDC_PORT")
 	if port == "" {
 		port = ":" + strconv.Itoa(cfg.Port)
 	}
 	log.Println(port)
+
+	if cfg.Monitors.GetBool("useWebPage") {
+		// static
+		iDirs := cfg.Monitors.GetStringSlice("includeDirs")
+		routeMap = make(map[string]string, len(iDirs))
+		for _, v := range iDirs {
+			p := 0
+			for v[p] == '.' || v[p] == '/' {
+				p++
+			}
+			t := getPath(v)
+			// 不加`/`无法获取index.html以外的文件
+			v = v[p:] + "/"
+			routeMap["/app/"+v] = t
+
+			// fmt.Println("/app/" + v)
+
+			bp := afero.NewBasePathFs(afero.NewOsFs(), t)
+			// fmt.Println(afero.ReadDir(bp, ""))
+			// fmt.Println(afero.ReadDir(bp, "l"))
+
+			// 新方案，基于statik库改的
+			binding, e := aFsBinding.New(bp)
+			if e != nil {
+				mustLog("WARNING", e)
+				continue
+			}
+			http.Handle("/app/"+v, http.StripPrefix("/app/"+v, http.FileServer(binding)))
+
+			// 老方案 基于http包改的
+			// http.Handle("/app/"+v, http.StripPrefix("/app/"+v, aFsBinding.FileServer(bp)))
+
+			// 原生
+			// http.Handle("/app/"+v, http.StripPrefix("/app/"+v, http.FileServer(http.Dir(v))))
+		}
+	}
+
+	// api
+	http.Handle("/entrypoint.action", &apiHandler{api: apiEntryPoint})
+	http.Handle("/developers.action", &apiHandler{api: apiDeveloper})
+	http.Handle("/detail.action", &apiHandler{api: apiDetail})
 
 	// websocket fresh
 	http.Handle("/fresh", websocket.Handler(wsFreshHandler))

@@ -1,4 +1,4 @@
-package cmd
+package main
 
 // TODO: 之后处理一下一下（单独提出去之类的）[目前c/s都加了这个]
 

@@ -54,6 +54,7 @@ func init() {
 		IncludeDirs: []string{"./src"},
 		ExceptDirs:  []string{".git"},
 		Types:       []string{".html", ".js", ".css"},
+		UseWebPage:  true,
 	})
 	viper.SetDefault("command", Command{
 		Exec:            []string{"echo fresh"},

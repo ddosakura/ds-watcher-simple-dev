@@ -13,11 +13,14 @@ monitor:
   exceptdirs:
   - local
   includedirs:
+  - ./assets
   - ./test
   - ./test2
+  - ./test3/test
   types:
   - .html
   - .js
   - .css
+  useWebPage: true
 port: 3000
 project: Unknow

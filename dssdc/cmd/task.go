@@ -7,6 +7,7 @@ import (
 	"log"
 	"os"
 	"os/exec"
+	"strings"
 	"sync"
 	"time"
 
@@ -29,10 +30,22 @@ type TaskMan struct {
 }
 
 func newTaskMan(delay int) *TaskMan {
-	return &TaskMan{
+	tm := &TaskMan{
 		delay: delay,
-		/*notifier: newNetNotifier(callUrl),*/
 	}
+	root := cfg.APIs.GetString("root")
+	if root != "" {
+		callUrl := cfg.APIs.GetString("notifier")
+		if callUrl == "" {
+			callUrl = root + "/note.action"
+		} else if !(strings.HasPrefix(callUrl, "http://") || strings.HasPrefix(callUrl, "https://")) {
+			callUrl = root + "/" + callUrl
+		}
+		tm.notifier = newNetNotifier(callUrl)
+
+		// TODO: add upload api
+	}
+	return tm
 }
 
 func (t *TaskMan) Put(cf *changedFile) {
@@ -80,7 +93,9 @@ func (t *TaskMan) run(cf *changedFile) {
 	go callFreshWebPage(notes)
 
 	// TODO: call web api
-	// go t.notifier.Put(cf)
+	if t.notifier != nil {
+		go t.notifier.Put(notes)
+	}
 
 	// call cmd
 	t.runLock.Lock()

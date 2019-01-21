@@ -8,6 +8,7 @@ type Monitor struct {
 	Types       []string `yaml:"types"`
 	IncludeDirs []string `yaml:"includeDirs"`
 	ExceptDirs  []string `yaml:"exceptDirs"`
+	UseWebPage  bool     `yaml: "useWebPage"`
 }
 
 type Command struct {
