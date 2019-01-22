@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"os"
 
-	_ "../dssdc/statik" // TODO: 考虑放公共部分
-	"../repo"
+	_ "github.com/ddosakura/ds-watcher-simple-dev/dssdc/statik" // TODO: 考虑放公共部分
+	"github.com/ddosakura/ds-watcher-simple-dev/repo"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/rakyll/statik/fs"
@@ -17,7 +17,6 @@ import (
 
 func init() {
 	repo.Pre = func() *gorm.DB {
-		// TODO: 从环境变量里搞进来
 		user := os.Getenv("DSSDS_USER")
 		if user == "" {
 			user = "root"

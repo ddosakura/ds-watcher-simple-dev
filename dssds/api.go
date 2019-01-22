@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"../repo"
+	"github.com/ddosakura/ds-watcher-simple-dev/repo"
 )
 
 type CommonResponse struct {

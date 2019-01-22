@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"../../repo"
+	"github.com/ddosakura/ds-watcher-simple-dev/repo"
 )
 
 type changedFile struct {

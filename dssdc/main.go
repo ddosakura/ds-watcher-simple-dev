@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	"./cmd"
+	"github.com/ddosakura/ds-watcher-simple-dev/dssdc/cmd"
 )
 
 func main() {

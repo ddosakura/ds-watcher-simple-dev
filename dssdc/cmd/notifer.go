@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"log"
 
-	"../../repo"
+	"github.com/ddosakura/ds-watcher-simple-dev/repo"
 )
 
 type postParams struct {

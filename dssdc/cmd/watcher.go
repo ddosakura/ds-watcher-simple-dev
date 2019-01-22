@@ -73,7 +73,6 @@ func initWatcher() {
 	delay = cfg.Commands.GetInt("delaymillsecond")
 	cmds = cfg.Commands.GetStringSlice("exec")
 	done := make(chan bool)
-	// TODO: fix callurl
 	taskMan = newTaskMan(cfg.Commands.GetInt("DelayMillSecond"))
 	go func() {
 		for {

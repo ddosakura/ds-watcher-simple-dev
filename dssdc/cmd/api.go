@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"../../repo"
+	"github.com/ddosakura/ds-watcher-simple-dev/repo"
 )
 
 type CommonResponse struct {

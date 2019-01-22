@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"../../repo"
+	"github.com/ddosakura/ds-watcher-simple-dev/repo"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite" // use sqlite
 )

@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strconv"
 
-	"../../aferofsbinding"
-	_ "../statik"
+	"github.com/ddosakura/ds-watcher-simple-dev/aferofsbinding"
+	_ "github.com/ddosakura/ds-watcher-simple-dev/dssdc/statik"
 	"github.com/rakyll/statik/fs"
 	"github.com/spf13/afero"
 	"golang.org/x/net/websocket"
