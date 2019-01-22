@@ -87,7 +87,10 @@ func (t *TaskMan) run(cf *changedFile) {
 
 	// TODO: temp data
 	// call localdb
-	go repo.Note(notes)
+	// fmt.Println(cfg.LocalDB)
+	if strings.HasSuffix(cfg.LocalDB, ".db") {
+		go repo.Note(notes)
+	}
 
 	log.Println("fresh webpage")
 	go callFreshWebPage(notes)

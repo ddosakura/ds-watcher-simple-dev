@@ -2,8 +2,10 @@ package cmd
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"net/http"
+	"strings"
 
 	"../../repo"
 )
@@ -57,11 +59,17 @@ func apiEntryPoint(*http.Request) (interface{}, error) {
 }
 
 func apiDeveloper(*http.Request) (interface{}, error) {
-	return repo.Developers(), nil
+	if strings.HasSuffix(cfg.LocalDB, ".db") {
+		return repo.Developers(), nil
+	}
+	return nil, errors.New("no local db")
 }
 
 func apiDetail(r *http.Request) (interface{}, error) {
 	name := r.FormValue("name")
 	// fmt.Println(r.Form, name)
-	return *repo.Detail(name), nil
+	if strings.HasSuffix(cfg.LocalDB, ".db") {
+		return *repo.Detail(name), nil
+	}
+	return nil, errors.New("no local db")
 }

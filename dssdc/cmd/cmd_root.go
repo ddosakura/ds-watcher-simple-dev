@@ -3,6 +3,7 @@ package cmd
 import (
 	"log"
 	"os"
+	"strings"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -102,7 +103,9 @@ func initConfig() {
 
 		_, e := os.Stat(cfg.LocalDB)
 		if e == nil {
-			initRepo(cfg.LocalDB)
+			if strings.HasSuffix(cfg.LocalDB, ".db") {
+				initRepo(cfg.LocalDB)
+			}
 		}
 	} else {
 		log.Println(err)

@@ -2,7 +2,6 @@ package cmd
 
 import (
 	"encoding/json"
-	"fmt"
 	"log"
 
 	"../../repo"
@@ -23,9 +22,9 @@ func newNetNotifier(callUrl string) *NetNotifier {
 }
 
 func (n *NetNotifier) Put(notes *repo.Notes) {
-	fmt.Println(notes.ID, notes)
-	ttt := repo.Notes{}
-	fmt.Println(ttt.ID, ttt)
+	// fmt.Println(notes.ID, notes)
+	// ttt := repo.Notes{}
+	// fmt.Println(ttt.ID, ttt)
 
 	d, e := json.Marshal(*notes)
 	if e != nil {

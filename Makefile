@@ -1,4 +1,6 @@
-build:
-	./dssdc/build.sh & ./dssds/build.sh
+builds:
+	./dssds/build.sh
+buildc:
+	./dssdc/build.sh
 docker:
 	docker build -t ddosakura/simple-dev:v0.0.1-alpha.1 .
