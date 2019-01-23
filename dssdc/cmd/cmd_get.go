@@ -1,9 +1,13 @@
 package cmd
 
 import (
+	"fmt"
 	"log"
+	"net/http"
 	"os"
-	"path/filepath"
+	"os/exec"
+	"runtime"
+	"strconv"
 
 	"github.com/spf13/cobra"
 )
@@ -15,23 +19,31 @@ var getCmd = &cobra.Command{
 	Long:    `See others project.`,
 
 	Run: func(cmd *cobra.Command, args []string) {
-		wd, err := os.Getwd()
-		if err != nil {
-			er(err)
-		}
-
-		if len(args) == 0 {
-		} else if len(args) == 1 {
-			arg := args[0]
-			if arg[0] == '.' {
-				arg = filepath.Join(wd, arg)
-			}
-			if filepath.IsAbs(arg) {
-			} else {
-			}
-			log.Println(wd, arg)
-		} else {
-			er("please provide only one argument")
-		}
+		getServer()
 	},
+}
+
+func getServer() {
+	port := os.Getenv("DSSDC_PORT")
+	if port == "" {
+		port = ":" + strconv.Itoa(cfg.Port)
+	}
+	// TODO: auto port inc
+	log.Println(port)
+
+	// TODO: get
+
+	// TODO: 优化（考虑第三方库）
+	// open the web browser
+	run, ok := openCommands[runtime.GOOS]
+	if !ok {
+		mustLog("WARNING", "don't know how to open things on %s platform", runtime.GOOS)
+	}
+	cmd := exec.Command(run, "http://localhost"+port)
+	go cmd.Start()
+
+	fmt.Printf("Listen %s\n", port)
+	if err := http.ListenAndServe(port, nil); err != nil {
+		log.Fatal("ListenAndServe:", err)
+	}
 }

@@ -10,7 +10,6 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/ddosakura/ds-watcher-simple-dev/aferofsbinding"
 	_ "github.com/ddosakura/ds-watcher-simple-dev/dssdc/statik"
 	"github.com/rakyll/statik/fs"
 	"github.com/spf13/afero"
@@ -59,13 +58,19 @@ func initFreshing() {
 			// fmt.Println(afero.ReadDir(bp, ""))
 			// fmt.Println(afero.ReadDir(bp, "l"))
 
+			// 标准方案
+			httpFs := afero.NewHttpFs(bp)
+			// fileserver := http.FileServer(httpFs.Dir("/"))
+			fileserver := http.FileServer(httpFs)
+			http.Handle("/app/"+v, http.StripPrefix("/app/"+v, fileserver))
+
 			// 新方案，基于statik库改的
-			binding, e := aFsBinding.New(bp)
-			if e != nil {
-				mustLog("WARNING", e)
-				continue
-			}
-			http.Handle("/app/"+v, http.StripPrefix("/app/"+v, http.FileServer(binding)))
+			// binding, e := aFsBinding.New(bp)
+			// if e != nil {
+			// 	mustLog("WARNING", e)
+			// 	continue
+			// }
+			// http.Handle("/app/"+v, http.StripPrefix("/app/"+v, http.FileServer(binding)))
 
 			// 老方案 基于http包改的
 			// http.Handle("/app/"+v, http.StripPrefix("/app/"+v, aFsBinding.FileServer(bp)))

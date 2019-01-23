@@ -17,6 +17,9 @@ var (
 	// ether use log
 	pLog bool
 
+	// remoteURL in `get` command
+	remoteURL string
+
 	rootCmd = &cobra.Command{
 		Use:   "dssdc",
 		Short: "A CLI for developer",
@@ -71,6 +74,7 @@ func init() {
 	publishCmd.PersistentFlags().StringVarP(&publishMsg, "msg", "m", "", "git commit msg")
 	rootCmd.AddCommand(packageCmd)
 	rootCmd.AddCommand(getCmd)
+	getCmd.PersistentFlags().StringVarP(&remoteURL, "remote-url", "u", "http://localhost:3000", "remote url")
 	rootCmd.AddCommand(updateCmd)
 
 	rootCmd.SetVersionTemplate(`{{with .Name}}{{printf "%s " .}}{{end}}{{printf "version %s\n" .Version}}`)

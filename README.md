@@ -26,17 +26,19 @@
 
 + [ ] dssdc 客户端
     + [x] init 初始化配置
-    + [x] dev 开发模式（更新监控）
+    + [ ] dev 开发模式（更新监控）
         + [x] WebPage页面映射
         + [x] 入口点
         + [x] 监控UI
         + [x] webapi通知
+        + [ ] API代理
     + [ ] package 项目打包
     + [ ] publish 发布项目（WebAPI/Git）
         + [x] Git
         + [ ] WebAPI Upload
         + [ ] `-a`
-    + [ ] get 获取&查看项目(考虑在服务器端也加一个dssdc监控文件变化{delay需要久一些})
+    + [ ] get 获取&查看项目
+        ~~+ [ ] (考虑在服务器端也监控文件变化{delay需要久一些})~~ <暂时不做>
     ~~+ [ ] update 客户端更新(检测github)~~ <暂时不做>
 
 + [ ] dssds 服务器端
@@ -59,3 +61,4 @@
 + [ ] 路由的处理
 + [ ] 处理sqlite要用cgo的问题
 + [ ] 修正另外生成的changeTime(暂时忘记加哪儿了，影响不是特别大)
++ [ ] 端口占用时自增
