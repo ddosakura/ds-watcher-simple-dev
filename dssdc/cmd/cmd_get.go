@@ -9,6 +9,8 @@ import (
 	"runtime"
 	"strconv"
 
+	"github.com/ddosakura/ds-watcher-simple-dev/afero-remotefs"
+	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
 )
 
@@ -31,7 +33,10 @@ func getServer() {
 	// TODO: auto port inc
 	log.Println(port)
 
-	// TODO: get
+	bp := remoteAfero.NewRemoteFs(remoteURL)
+	httpFs := afero.NewHttpFs(bp)
+	fileserver := http.FileServer(httpFs)
+	http.Handle("/", fileserver)
 
 	// TODO: 优化（考虑第三方库）
 	// open the web browser
@@ -39,7 +44,8 @@ func getServer() {
 	if !ok {
 		mustLog("WARNING", "don't know how to open things on %s platform", runtime.GOOS)
 	}
-	cmd := exec.Command(run, "http://localhost"+port)
+	// _ = exec.Command(run, "http://localhost"+port+"/"+remoteEntryURL)
+	cmd := exec.Command(run, "http://localhost"+port+"/"+remoteEntryURL)
 	go cmd.Start()
 
 	fmt.Printf("Listen %s\n", port)
