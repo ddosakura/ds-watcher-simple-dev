@@ -21,6 +21,9 @@ var (
 	remoteURL      string
 	remoteEntryURL string
 
+	// publishWay
+	allPublishWay bool
+
 	rootCmd = &cobra.Command{
 		Use:   "dssdc",
 		Short: "A CLI for developer",
@@ -73,11 +76,11 @@ func init() {
 	rootCmd.AddCommand(devCmd)
 	rootCmd.AddCommand(publishCmd)
 	publishCmd.PersistentFlags().StringVarP(&publishMsg, "msg", "m", "", "git commit msg")
+	publishCmd.PersistentFlags().BoolVarP(&allPublishWay, "all", "a", false, "use all publish way")
 	rootCmd.AddCommand(packageCmd)
 	rootCmd.AddCommand(getCmd)
 	getCmd.PersistentFlags().StringVarP(&remoteURL, "remote-url", "u", "https://github.com", "remote url")
 	getCmd.PersistentFlags().StringVarP(&remoteEntryURL, "entry", "e", "/ddosakura", "entry url")
-
 	rootCmd.AddCommand(updateCmd)
 
 	rootCmd.SetVersionTemplate(`{{with .Name}}{{printf "%s " .}}{{end}}{{printf "version %s\n" .Version}}`)

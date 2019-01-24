@@ -29,7 +29,15 @@ You should install Git to use the function.`,
 			}
 			runExec("git", "commit", "-m", publishMsg)
 			runExec("git", "push")
+			if !allPublishWay {
+				return
+			}
 		}
+
+		tgName := cfg.ProjectName + ".tar.gz"
+		fmt.Println("doing")
+		pkg(tgName)
+		os.Remove(tgName)
 	},
 }
 
