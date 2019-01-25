@@ -30,4 +30,5 @@ type CFG struct {
 	Developer   string
 	LocalDB     string
 	Port        int
+	Proxy       map[string]string
 }

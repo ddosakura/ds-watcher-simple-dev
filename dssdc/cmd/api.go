@@ -55,7 +55,14 @@ func (h *apiHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func apiEntryPoint(*http.Request) (interface{}, error) {
-	return routeMap, nil
+	res := make(map[string]string, len(routeMap)+len(cfg.Proxy))
+	for k, v := range routeMap {
+		res[k] = v
+	}
+	for k, v := range cfg.Proxy {
+		res[k] = v
+	}
+	return res, nil
 }
 
 func apiDeveloper(*http.Request) (interface{}, error) {

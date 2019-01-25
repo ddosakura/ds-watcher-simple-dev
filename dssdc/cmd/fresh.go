@@ -10,6 +10,7 @@ import (
 	"runtime"
 	"strconv"
 
+	"github.com/ddosakura/ds-watcher-simple-dev/afero-remotefs"
 	_ "github.com/ddosakura/ds-watcher-simple-dev/dssdc/statik"
 	"github.com/rakyll/statik/fs"
 	"github.com/spf13/afero"
@@ -78,6 +79,15 @@ func initFreshing() {
 			// 原生
 			// http.Handle("/app/"+v, http.StripPrefix("/app/"+v, http.FileServer(http.Dir(v))))
 		}
+	}
+
+	// proxy url
+	for localURL, remoteURL := range cfg.Proxy {
+		fmt.Println(localURL, remoteURL)
+		bp := remoteAfero.NewRemoteFs(remoteURL)
+		httpFs := afero.NewHttpFs(bp)
+		fileserver := http.FileServer(httpFs)
+		http.Handle(localURL, http.StripPrefix(localURL, fileserver))
 	}
 
 	// api

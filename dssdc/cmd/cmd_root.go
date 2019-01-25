@@ -71,6 +71,9 @@ func init() {
 	viper.SetDefault("api", API{
 		Root: "http://localhost:2000/",
 	})
+	viper.SetDefault("proxy", map[string]string{
+		"/api/": "http://api.douban.com/v2/",
+	})
 
 	rootCmd.AddCommand(initCmd)
 	rootCmd.AddCommand(devCmd)
@@ -108,6 +111,7 @@ func initConfig() {
 			Developer:   viper.GetString("developer"),
 			LocalDB:     viper.GetString("localdb"),
 			Port:        viper.GetInt("port"),
+			Proxy:       viper.GetStringMapString("proxy"),
 		}
 		// log.Println(cfg)
 
