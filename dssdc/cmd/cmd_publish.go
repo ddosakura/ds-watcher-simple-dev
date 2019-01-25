@@ -7,6 +7,7 @@ import (
 	"os"
 	"os/exec"
 
+	"github.com/ddosakura/ds-watcher-simple-dev/uploader"
 	"github.com/spf13/cobra"
 )
 
@@ -35,8 +36,11 @@ You should install Git to use the function.`,
 		}
 
 		tgName := cfg.ProjectName + ".tar.gz"
-		fmt.Println("doing")
 		pkg(tgName)
+		uploader.Upload(tgName, getCallUrl("upload", "/upload.action"), uploader.Dto{
+			User: cfg.Developer,
+			File: tgName,
+		})
 		os.Remove(tgName)
 	},
 }

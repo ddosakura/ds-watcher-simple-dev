@@ -29,21 +29,30 @@ type TaskMan struct {
 	runLock    sync.Mutex
 }
 
+func getCallUrl(typename string, defaultname string) string {
+	root := cfg.APIs.GetString("root")
+	callUrl := cfg.APIs.GetString(typename)
+	if callUrl == "" {
+		callUrl = root + defaultname
+	} else if !(strings.HasPrefix(callUrl, "http://") || strings.HasPrefix(callUrl, "https://")) {
+		callUrl = root + "/" + callUrl
+	}
+	callUrl = strings.Replace(callUrl, "://", ":/", 1)
+	for strings.Contains(callUrl, "//") {
+		callUrl = strings.Replace(callUrl, "//", "/", -1)
+	}
+	callUrl = strings.Replace(callUrl, ":/", "://", 1)
+	return callUrl
+}
+
 func newTaskMan(delay int) *TaskMan {
 	tm := &TaskMan{
 		delay: delay,
 	}
 	root := cfg.APIs.GetString("root")
 	if root != "" {
-		callUrl := cfg.APIs.GetString("notifier")
-		if callUrl == "" {
-			callUrl = root + "/note.action"
-		} else if !(strings.HasPrefix(callUrl, "http://") || strings.HasPrefix(callUrl, "https://")) {
-			callUrl = root + "/" + callUrl
-		}
+		callUrl := getCallUrl("notifier", "/note.action")
 		tm.notifier = newNetNotifier(callUrl)
-
-		// TODO: add upload api
 	}
 	return tm
 }

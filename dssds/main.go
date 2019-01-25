@@ -9,6 +9,7 @@ import (
 
 	_ "github.com/ddosakura/ds-watcher-simple-dev/dssdc/statik" // TODO: 考虑放公共部分
 	"github.com/ddosakura/ds-watcher-simple-dev/repo"
+	"github.com/ddosakura/ds-watcher-simple-dev/uploader"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/rakyll/statik/fs"
@@ -62,6 +63,7 @@ func main() {
 	http.Handle("/developers.action", &apiHandler{api: apiDeveloper})
 	http.Handle("/detail.action", &apiHandler{api: apiDetail})
 	http.Handle("/note.action", &apiHandler{api: apiNote})
+	http.Handle("/upload.action", &apiHandler{api: uploader.Handler})
 
 	// websocket fresh
 	http.Handle("/fresh", websocket.Handler(wsFreshHandler))

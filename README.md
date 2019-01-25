@@ -25,27 +25,29 @@
 
 ### Done
 
-+ [ ] dssdc 客户端
++ [x] dssdc 客户端
     + [x] init 初始化配置
-    + [ ] dev 开发模式（更新监控）
+    + [x] dev 开发模式（更新监控）
         + [x] WebPage页面映射
         + [x] 入口点
         + [x] 监控UI
         + [x] webapi通知
-        + [ ] API代理
+        + [x] API代理
     + [x] package 项目打包
-    + [ ] publish 发布项目（WebAPI/Git）
+    + [x] publish 发布项目（WebAPI/Git）
         + [x] Git
-        + [ ] WebAPI Upload
+        + [x] WebAPI Upload
         + [x] `-a`
     + [x] get 获取&查看项目
         + ~~[ ] (考虑在服务器端也监控文件变化{delay需要久一些})~~ <暂时不做>
     + ~~[ ] update 客户端更新(检测github)~~ <暂时不做>
 
-+ [ ] dssds 服务器端
++ [x] dssds 服务器端
     + [x] 数据可视化(与dssdc使用同一个)
     + [x] 数据收集API
-    + [ ] 项目上传API & 刷新
+    + [x] 项目上传API
+        + ~~[ ] 文件覆盖策略~~ <暂时不做>
+        + ~~[ ] 自动刷新页面（远程）~~ <暂时不做>
 + ~~[ ] 项目上传API(PHP ver)~~ <暂时不做>
 
 ### 注意！

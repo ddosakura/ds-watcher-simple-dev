@@ -3,4 +3,4 @@ builds:
 buildc:
 	./dssdc/build.sh
 docker:
-	docker build -t ddosakura/simple-dev:v0.0.1-alpha.1 .
+	docker build -t ddosakura/simple-dev:v0.0.1-beta.1 .

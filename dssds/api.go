@@ -23,9 +23,9 @@ type apiHandler struct {
 }
 
 func (h *apiHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json;chartset=uft-8")
 	r.ParseForm()
 	data, e := h.api(r)
+	w.Header().Set("Content-Type", "application/json;chartset=uft-8")
 	var rep CommonResponse
 	if e == nil {
 		rep = CommonResponse{
