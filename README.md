@@ -5,6 +5,11 @@
 + dssdc 用于监控文件变化
 + dssds 用于接收变化数据
 
+## 下载
+
++ [客户端](https://github.com/ddosakura/ds-watcher-simple-dev/releases)
++ [服务器端](https://cloud.docker.com/u/ddosakura/repository/docker/ddosakura/simple-dev)
+
 ## 依赖
 
 + 检测主目录 `github.com/mitchellh/go-homedir`
