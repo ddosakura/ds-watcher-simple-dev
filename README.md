@@ -38,6 +38,25 @@
 
 + 20190111: 部分参考 `https://github.com/dengsgo/fileboy`
 
+## News
+
+### v0.0.1-beta.1 [simple-dev beta!]
+
+```
+client:
+1. 文件打包
+dssdc package
+2. 添加全途径上传的tag
+dssdc publish -m <msg> -a
+3. dev模式 添加代理功能
+4. 文件上传(by api)
+dssdc publish
+5. get模式 添加代理功能
+
+server:
+1. 文件接收
+```
+
 ## 功能
 
 ### Done
@@ -83,6 +102,9 @@
 + [ ] 修正另外生成的changeTime(暂时忘记加哪儿了，影响不是特别大)
 + [ ] 端口占用时自增
 + [ ] 归档时的忽略文件
++ [ ] dssds download path
++ ~~[ ] upload file chmod 755 -> 777~~ <通过上传前修改文件权限来处理>
++ [ ] proxy api 不缓存(修复该问题前可加 `?rand=xxx` 处理)
 
 + [ ] DB文件存在性检查
 + [ ] 监听文件夹存在性检查

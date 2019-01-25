@@ -33,6 +33,15 @@ func getServer() {
 	// TODO: auto port inc
 	log.Println(port)
 
+	// proxy url
+	for localURL, remoteURL := range cfg.Proxy {
+		fmt.Println(localURL, remoteURL)
+		bp := remoteAfero.NewRemoteFs(remoteURL)
+		httpFs := afero.NewHttpFs(bp)
+		fileserver := http.FileServer(httpFs)
+		http.Handle(localURL, http.StripPrefix(localURL, fileserver))
+	}
+
 	bp := remoteAfero.NewRemoteFs(remoteURL)
 	httpFs := afero.NewHttpFs(bp)
 	fileserver := http.FileServer(httpFs)
