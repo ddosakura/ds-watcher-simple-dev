@@ -10,6 +10,18 @@
 + [客户端](https://github.com/ddosakura/ds-watcher-simple-dev/releases)
 + [服务器端](https://cloud.docker.com/u/ddosakura/repository/docker/ddosakura/simple-dev)
 
+### 容器配置示例
+
+```yaml
+  dssds:
+    image: ddosakura/simple-dev:v0.0.1-beta.1
+    volumes:
+      - <URL>/dssds/ws:/data/ws
+    environment:
+      - DSSDS_DB_HOST=mysql
+      - DSSDS_WORKSPACE=./data/ws
+```
+
 ## 依赖
 
 + 检测主目录 `github.com/mitchellh/go-homedir`
