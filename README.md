@@ -31,8 +31,8 @@
 + 文件系统 `github.com/spf13/afero`
 + 静态资源 `github.com/rakyll/statik`
 + 文件监控 `go get -u gopkg.in/fsnotify/fsnotify.v1`
-+ Windows 启动浏览器 `github.com/inconshreveable/mousetrap`
-+ ~~压缩文件 `go get -u github.com/mholt/archiver/cmd/arc`~~
++ ~~Windows 启动浏览器 `github.com/inconshreveable/mousetrap`~~
++ 压缩文件 `go get -u github.com/mholt/archiver/cmd/arc`
 
 ## 参考
 
@@ -103,6 +103,7 @@ dssdc publish
 + [ ] 代理api不缓存（修复前用 `?rand=xxx` 解决）
 + [ ] 修正另外生成的changeTime(暂时忘记加哪儿了，影响不是特别大)
 + [ ] 端口占用时自增
++ [ ] Window 浏览器启动
 
 #### v0.0.1-beta.3
 
