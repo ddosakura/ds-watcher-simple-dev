@@ -95,6 +95,12 @@ dssdc publish
 ### TODO & BUG-FIX
 
 + [x] 处理sqlite要用cgo的问题(已用xgo解决)
++ [ ] 处理脚本的自动注入（以 `browser-sync` 为例）
+> ```html
+> <body><script id="__bs_script__">//<![CDATA[
+>     document.write("<script async src='/browser-sync/browser-sync-client.js?v=2.24.6'><\/script>".replace("HOST", location.hostname));
+> //]]></script>
+> ```
 
 #### v0.0.1-beta.2
 
